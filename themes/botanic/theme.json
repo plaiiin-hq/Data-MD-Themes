@@ -2,7 +2,7 @@
   "format": 1,
   "id": "botanic",
   "name": "Botanic",
-  "version": 4,
+  "version": 5,
   "look": "soft",
   "appearance": "light",
   "page": "#FAF8F3",
@@ -28,6 +28,6 @@
       "background-3.jpg"
     ],
     "veil": 0.35,
-    "blur": 24
+    "blur": 6
   }
 }

@@ -4,51 +4,51 @@
   "themes": [
     {
       "id": "prism",
-      "version": 3
-    },
-    {
-      "id": "daybreak",
-      "version": 3
-    },
-    {
-      "id": "dune",
-      "version": 3
-    },
-    {
-      "id": "botanic",
       "version": 4
     },
     {
+      "id": "daybreak",
+      "version": 4
+    },
+    {
+      "id": "dune",
+      "version": 4
+    },
+    {
+      "id": "botanic",
+      "version": 5
+    },
+    {
       "id": "sakura",
-      "version": 3
+      "version": 4
     },
     {
       "id": "skyline",
-      "version": 3
+      "version": 4
     },
     {
       "id": "riviera",
-      "version": 3
+      "version": 4
     },
     {
       "id": "tower",
-      "version": 3
+      "version": 4
     },
     {
       "id": "pavilion",
-      "version": 3
+      "version": 4
     },
     {
       "id": "orbit",
-      "version": 3
+      "version": 4
     },
     {
       "id": "aurora",
-      "version": 3
+      "version": 4
     },
     {
       "id": "graphite",
-      "version": 3
+      "version": 4
     }
   ]
 }

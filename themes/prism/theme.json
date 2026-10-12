@@ -2,7 +2,7 @@
   "format": 1,
   "id": "prism",
   "name": "Prism",
-  "version": 3,
+  "version": 4,
   "look": "bold",
   "appearance": "dark",
   "page": "#0B1A4C",
@@ -28,6 +28,6 @@
       "background-3.jpg"
     ],
     "veil": 0.35,
-    "blur": 24
+    "blur": 6
   }
 }

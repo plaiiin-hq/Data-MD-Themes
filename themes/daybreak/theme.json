@@ -2,7 +2,7 @@
   "format": 1,
   "id": "daybreak",
   "name": "Daybreak",
-  "version": 3,
+  "version": 4,
   "look": "bold",
   "appearance": "light",
   "page": "#F7F7FC",
@@ -28,6 +28,6 @@
       "background-3.jpg"
     ],
     "veil": 0.6,
-    "blur": 24
+    "blur": 6
   }
 }

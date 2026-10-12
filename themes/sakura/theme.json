@@ -2,7 +2,7 @@
   "format": 1,
   "id": "sakura",
   "name": "Sakura",
-  "version": 3,
+  "version": 4,
   "look": "soft",
   "appearance": "light",
   "page": "#FDF7F7",
@@ -28,6 +28,6 @@
       "background-3.jpg"
     ],
     "veil": 0.6,
-    "blur": 24
+    "blur": 6
   }
 }

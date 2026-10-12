@@ -2,7 +2,7 @@
   "format": 1,
   "id": "pavilion",
   "name": "Pavilion",
-  "version": 3,
+  "version": 4,
   "look": "editorial",
   "appearance": "light",
   "page": "#F6F6FA",
@@ -28,6 +28,6 @@
       "background-3.jpg"
     ],
     "veil": 0.6,
-    "blur": 24
+    "blur": 6
   }
 }

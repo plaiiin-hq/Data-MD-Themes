@@ -2,7 +2,7 @@
   "format": 1,
   "id": "riviera",
   "name": "Riviera",
-  "version": 3,
+  "version": 4,
   "look": "editorial",
   "appearance": "light",
   "page": "#F8F2EA",
@@ -28,7 +28,7 @@
       "background-3.jpg"
     ],
     "veil": 0.6,
-    "blur": 24
+    "blur": 6
   },
   "rules": false
 }
