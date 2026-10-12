@@ -7,7 +7,7 @@ The deck themes of [plaiiin Docs](https://plaiiin.com). The app reads this repos
 | Prism | Bold | dark | top left |
 | Daybreak | Bold | light | left |
 | Dune | Bold | light | bottom left |
-| Botanic | Soft | light | left |
+| Botanic | Soft | light | top left |
 | Sakura | Soft | light | left |
 | Skyline | Soft | light | top left |
 | Riviera | Editorial | light | left |
