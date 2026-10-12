@@ -2,7 +2,7 @@
   "format": 1,
   "id": "aurora",
   "name": "Aurora",
-  "version": 1,
+  "version": 2,
   "look": "spotlight",
   "appearance": "dark",
   "page": "#081324",
@@ -21,6 +21,12 @@
     "thumbnail": "thumbnail.jpg",
     "title": "bottomLeading",
     "ink": "#FFFFFF",
-    "scrim": 0.3
+    "scrim": 0.3,
+    "backgrounds": [
+      "background-1.jpg",
+      "background-2.jpg",
+      "background-3.jpg"
+    ],
+    "veil": 0.35
   }
 }

@@ -2,7 +2,7 @@
   "format": 1,
   "id": "graphite",
   "name": "Graphite",
-  "version": 1,
+  "version": 2,
   "look": "spotlight",
   "appearance": "dark",
   "page": "#0E0F12",
@@ -21,6 +21,12 @@
     "thumbnail": "thumbnail.jpg",
     "title": "topLeading",
     "ink": "#FFFFFF",
-    "scrim": 0.0
+    "scrim": 0.0,
+    "backgrounds": [
+      "background-1.jpg",
+      "background-2.jpg",
+      "background-3.jpg"
+    ],
+    "veil": 0.3
   }
 }

@@ -1,6 +1,6 @@
 # plaiiin Slide Themes
 
-The deck themes of [plaiiin Docs](https://plaiiin.com). The app reads this repository directly: it fetches `catalog.json` to see which themes exist and at which version, then a theme's colours and thumbnail, and its photo the first time a deck uses it. When a theme's `version` goes up, every app fetches it again.
+The deck themes of [plaiiin Docs](https://plaiiin.com). The app reads this repository directly: it fetches `catalog.json` to see which themes exist and at which version, then a theme's colours and thumbnail, and its photo and backgrounds the first time a deck uses it. When a theme's `version` goes up, every app fetches it again.
 
 | Theme | Look | Page | Title slide |
 |---|---|---|---|
@@ -17,7 +17,7 @@ The deck themes of [plaiiin Docs](https://plaiiin.com). The app reads this repos
 | Aurora | Spotlight | dark | bottom left |
 | Graphite | Spotlight | dark | top left |
 
-Each theme sets the title slide on its photo and each section's divider on a veiled copy of it. Content slides keep a plain page in the photo's colours, so text never sits on a picture.
+Each theme sets the title slide on its photo and each section's divider on a veiled copy of it. Content slides take the theme's backgrounds in turn — quieter pictures with room for text — under a veil of the page; a theme with none keeps a plain page.
 
 ## Layout
 
@@ -26,6 +26,7 @@ catalog.json                 which themes, at which version
 themes/<id>/theme.json       colours, look, where the title sits
 themes/<id>/photo.jpg        the photo, 16:9
 themes/<id>/thumbnail.jpg    480 px wide, for the picker
+themes/<id>/background-N.jpg any number, 16:9, behind content slides in turn
 ```
 
 ### catalog.json
@@ -51,6 +52,8 @@ themes/<id>/thumbnail.jpg    480 px wide, for the picker
 | `photo.title` | `topLeading`, `leading` or `bottomLeading`: the photo's quiet side. |
 | `photo.ink` | `#RRGGBB`: the title's colour on the photo. |
 | `photo.scrim` | `0`–`1`: a shade behind the title, the opposite of its ink, fading across the slide. |
+| `photo.backgrounds` | File names, optional: the pictures content slides take in turn, as many as you like. |
+| `photo.veil` | `0`–`1`, optional, default `0.35`: how much of the page lies over a background so text reads. |
 
 ## Your own themes
 

@@ -2,7 +2,7 @@
   "format": 1,
   "id": "botanic",
   "name": "Botanic",
-  "version": 1,
+  "version": 2,
   "look": "soft",
   "appearance": "light",
   "page": "#FAF8F3",
@@ -21,6 +21,12 @@
     "thumbnail": "thumbnail.jpg",
     "title": "leading",
     "ink": "#24331A",
-    "scrim": 0.0
+    "scrim": 0.0,
+    "backgrounds": [
+      "background-1.jpg",
+      "background-2.jpg",
+      "background-3.jpg"
+    ],
+    "veil": 0.35
   }
 }

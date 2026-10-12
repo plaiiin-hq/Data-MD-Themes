@@ -2,7 +2,7 @@
   "format": 1,
   "id": "pavilion",
   "name": "Pavilion",
-  "version": 1,
+  "version": 2,
   "look": "editorial",
   "appearance": "light",
   "page": "#F6F6FA",
@@ -21,6 +21,12 @@
     "thumbnail": "thumbnail.jpg",
     "title": "topLeading",
     "ink": "#FFFFFF",
-    "scrim": 0.55
+    "scrim": 0.55,
+    "backgrounds": [
+      "background-1.jpg",
+      "background-2.jpg",
+      "background-3.jpg"
+    ],
+    "veil": 0.6
   }
 }

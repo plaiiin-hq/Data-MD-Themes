@@ -2,7 +2,7 @@
   "format": 1,
   "id": "orbit",
   "name": "Orbit",
-  "version": 1,
+  "version": 2,
   "look": "spotlight",
   "appearance": "dark",
   "page": "#07101D",
@@ -21,6 +21,12 @@
     "thumbnail": "thumbnail.jpg",
     "title": "topLeading",
     "ink": "#FFFFFF",
-    "scrim": 0.0
+    "scrim": 0.0,
+    "backgrounds": [
+      "background-1.jpg",
+      "background-2.jpg",
+      "background-3.jpg"
+    ],
+    "veil": 0.3
   }
 }

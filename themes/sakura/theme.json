@@ -2,7 +2,7 @@
   "format": 1,
   "id": "sakura",
   "name": "Sakura",
-  "version": 1,
+  "version": 2,
   "look": "soft",
   "appearance": "light",
   "page": "#FDF7F7",
@@ -21,6 +21,12 @@
     "thumbnail": "thumbnail.jpg",
     "title": "leading",
     "ink": "#4A2438",
-    "scrim": 0.15
+    "scrim": 0.15,
+    "backgrounds": [
+      "background-1.jpg",
+      "background-2.jpg",
+      "background-3.jpg"
+    ],
+    "veil": 0.6
   }
 }

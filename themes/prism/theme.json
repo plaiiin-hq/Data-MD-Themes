@@ -2,7 +2,7 @@
   "format": 1,
   "id": "prism",
   "name": "Prism",
-  "version": 1,
+  "version": 2,
   "look": "bold",
   "appearance": "dark",
   "page": "#0B1A4C",
@@ -21,6 +21,12 @@
     "thumbnail": "thumbnail.jpg",
     "title": "topLeading",
     "ink": "#FFFFFF",
-    "scrim": 0.25
+    "scrim": 0.25,
+    "backgrounds": [
+      "background-1.jpg",
+      "background-2.jpg",
+      "background-3.jpg"
+    ],
+    "veil": 0.35
   }
 }

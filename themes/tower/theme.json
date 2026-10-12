@@ -2,7 +2,7 @@
   "format": 1,
   "id": "tower",
   "name": "Tower",
-  "version": 1,
+  "version": 2,
   "look": "editorial",
   "appearance": "light",
   "page": "#F5F8FC",
@@ -21,6 +21,12 @@
     "thumbnail": "thumbnail.jpg",
     "title": "leading",
     "ink": "#0E2740",
-    "scrim": 0.1
+    "scrim": 0.1,
+    "backgrounds": [
+      "background-1.jpg",
+      "background-2.jpg",
+      "background-3.jpg"
+    ],
+    "veil": 0.55
   }
 }

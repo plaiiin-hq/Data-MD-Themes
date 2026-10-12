@@ -2,7 +2,7 @@
   "format": 1,
   "id": "dune",
   "name": "Dune",
-  "version": 1,
+  "version": 2,
   "look": "bold",
   "appearance": "light",
   "page": "#FAF2E7",
@@ -21,6 +21,12 @@
     "thumbnail": "thumbnail.jpg",
     "title": "bottomLeading",
     "ink": "#FFFFFF",
-    "scrim": 0.35
+    "scrim": 0.35,
+    "backgrounds": [
+      "background-1.jpg",
+      "background-2.jpg",
+      "background-3.jpg"
+    ],
+    "veil": 0.6
   }
 }

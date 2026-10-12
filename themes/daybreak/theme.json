@@ -2,7 +2,7 @@
   "format": 1,
   "id": "daybreak",
   "name": "Daybreak",
-  "version": 1,
+  "version": 2,
   "look": "bold",
   "appearance": "light",
   "page": "#F7F7FC",
@@ -21,6 +21,12 @@
     "thumbnail": "thumbnail.jpg",
     "title": "leading",
     "ink": "#14183A",
-    "scrim": 0.25
+    "scrim": 0.25,
+    "backgrounds": [
+      "background-1.jpg",
+      "background-2.jpg",
+      "background-3.jpg"
+    ],
+    "veil": 0.6
   }
 }
