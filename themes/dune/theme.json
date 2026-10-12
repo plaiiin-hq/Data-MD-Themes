@@ -2,7 +2,7 @@
   "format": 1,
   "id": "dune",
   "name": "Dune",
-  "version": 2,
+  "version": 3,
   "look": "bold",
   "appearance": "light",
   "page": "#FAF2E7",
@@ -27,6 +27,7 @@
       "background-2.jpg",
       "background-3.jpg"
     ],
-    "veil": 0.6
+    "veil": 0.6,
+    "blur": 24
   }
 }

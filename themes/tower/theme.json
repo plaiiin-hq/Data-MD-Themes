@@ -2,7 +2,7 @@
   "format": 1,
   "id": "tower",
   "name": "Tower",
-  "version": 2,
+  "version": 3,
   "look": "editorial",
   "appearance": "light",
   "page": "#F5F8FC",
@@ -27,6 +27,7 @@
       "background-2.jpg",
       "background-3.jpg"
     ],
-    "veil": 0.55
+    "veil": 0.55,
+    "blur": 24
   }
 }

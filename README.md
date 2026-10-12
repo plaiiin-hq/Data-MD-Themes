@@ -54,6 +54,8 @@ themes/<id>/background-N.jpg any number, 16:9, behind content slides in turn
 | `photo.scrim` | `0`–`1`: a shade behind the title, the opposite of its ink, fading across the slide. |
 | `photo.backgrounds` | File names, optional: the pictures content slides take in turn, as many as you like. |
 | `photo.veil` | `0`–`1`, optional, default `0.35`: how much of the page lies over a background so text reads. |
+| `photo.blur` | Points, optional, default `24`: how far the background is blurred behind tables, callouts and code. `0` keeps it sharp. |
+| `rules` | `false`, optional: no horizontal rules after the title slide (Editorial's header rule and divider frame). |
 
 ## Your own themes
 

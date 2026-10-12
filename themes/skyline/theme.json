@@ -2,7 +2,7 @@
   "format": 1,
   "id": "skyline",
   "name": "Skyline",
-  "version": 2,
+  "version": 3,
   "look": "soft",
   "appearance": "light",
   "page": "#FBF5F4",
@@ -27,6 +27,7 @@
       "background-2.jpg",
       "background-3.jpg"
     ],
-    "veil": 0.6
+    "veil": 0.6,
+    "blur": 24
   }
 }
