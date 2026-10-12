@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "id": "pavilion",
+  "name": "Pavilion",
+  "version": 1,
+  "look": "editorial",
+  "appearance": "light",
+  "page": "#F6F6FA",
+  "text": "#1F2638",
+  "accent": "#2A7FC8",
+  "sections": [
+    "#2A7FC8",
+    "#C8703C",
+    "#6252C0",
+    "#24907F",
+    "#B44E80",
+    "#A88420"
+  ],
+  "photo": {
+    "image": "photo.jpg",
+    "thumbnail": "thumbnail.jpg",
+    "title": "topLeading",
+    "ink": "#FFFFFF",
+    "scrim": 0.55
+  }
+}

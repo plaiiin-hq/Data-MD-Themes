@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "id": "tower",
+  "name": "Tower",
+  "version": 1,
+  "look": "editorial",
+  "appearance": "light",
+  "page": "#F5F8FC",
+  "text": "#1A2633",
+  "accent": "#226FA0",
+  "sections": [
+    "#226FA0",
+    "#1F8080",
+    "#5E52C0",
+    "#B85C26",
+    "#3B7836",
+    "#A0406A"
+  ],
+  "photo": {
+    "image": "photo.jpg",
+    "thumbnail": "thumbnail.jpg",
+    "title": "leading",
+    "ink": "#0E2740",
+    "scrim": 0.1
+  }
+}

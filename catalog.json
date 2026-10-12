@@ -1,0 +1,54 @@
+{
+  "format": 1,
+  "name": "plaiiin Slide Themes",
+  "themes": [
+    {
+      "id": "prism",
+      "version": 1
+    },
+    {
+      "id": "daybreak",
+      "version": 1
+    },
+    {
+      "id": "dune",
+      "version": 1
+    },
+    {
+      "id": "botanic",
+      "version": 1
+    },
+    {
+      "id": "sakura",
+      "version": 1
+    },
+    {
+      "id": "skyline",
+      "version": 1
+    },
+    {
+      "id": "riviera",
+      "version": 1
+    },
+    {
+      "id": "tower",
+      "version": 1
+    },
+    {
+      "id": "pavilion",
+      "version": 1
+    },
+    {
+      "id": "orbit",
+      "version": 1
+    },
+    {
+      "id": "aurora",
+      "version": 1
+    },
+    {
+      "id": "graphite",
+      "version": 1
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "id": "graphite",
+  "name": "Graphite",
+  "version": 1,
+  "look": "spotlight",
+  "appearance": "dark",
+  "page": "#0E0F12",
+  "text": "#D4D7DC",
+  "accent": "#C9CED6",
+  "sections": [
+    "#AFC0D4",
+    "#7FB2D9",
+    "#9FC9B8",
+    "#C4A6D9",
+    "#D9B68C",
+    "#D99A9A"
+  ],
+  "photo": {
+    "image": "photo.jpg",
+    "thumbnail": "thumbnail.jpg",
+    "title": "topLeading",
+    "ink": "#FFFFFF",
+    "scrim": 0.0
+  }
+}

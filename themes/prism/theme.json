@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "id": "prism",
+  "name": "Prism",
+  "version": 1,
+  "look": "bold",
+  "appearance": "dark",
+  "page": "#0B1A4C",
+  "text": "#E4ECFA",
+  "accent": "#56CAD8",
+  "sections": [
+    "#56CAD8",
+    "#F2A65A",
+    "#D27DEC",
+    "#6CB6F0",
+    "#FF8A7A",
+    "#7DDB8A"
+  ],
+  "photo": {
+    "image": "photo.jpg",
+    "thumbnail": "thumbnail.jpg",
+    "title": "topLeading",
+    "ink": "#FFFFFF",
+    "scrim": 0.25
+  }
+}

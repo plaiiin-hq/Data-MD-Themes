@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "id": "dune",
+  "name": "Dune",
+  "version": 1,
+  "look": "bold",
+  "appearance": "light",
+  "page": "#FAF2E7",
+  "text": "#3A2416",
+  "accent": "#B8501A",
+  "sections": [
+    "#B8501A",
+    "#A0701A",
+    "#8A3B5C",
+    "#2E7A78",
+    "#5B5FA8",
+    "#6F7F26"
+  ],
+  "photo": {
+    "image": "photo.jpg",
+    "thumbnail": "thumbnail.jpg",
+    "title": "bottomLeading",
+    "ink": "#FFFFFF",
+    "scrim": 0.35
+  }
+}

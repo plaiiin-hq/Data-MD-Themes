@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "id": "botanic",
+  "name": "Botanic",
+  "version": 1,
+  "look": "soft",
+  "appearance": "light",
+  "page": "#FAF8F3",
+  "text": "#2A2E24",
+  "accent": "#3E6B1F",
+  "sections": [
+    "#3E6B1F",
+    "#1F6B68",
+    "#8A6A1E",
+    "#4A5FA0",
+    "#9A4B6B",
+    "#B0562B"
+  ],
+  "photo": {
+    "image": "photo.jpg",
+    "thumbnail": "thumbnail.jpg",
+    "title": "leading",
+    "ink": "#24331A",
+    "scrim": 0.0
+  }
+}

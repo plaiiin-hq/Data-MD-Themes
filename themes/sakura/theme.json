@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "id": "sakura",
+  "name": "Sakura",
+  "version": 1,
+  "look": "soft",
+  "appearance": "light",
+  "page": "#FDF7F7",
+  "text": "#3A2A32",
+  "accent": "#C0406A",
+  "sections": [
+    "#C0406A",
+    "#8A5A78",
+    "#5A72B0",
+    "#C86A3E",
+    "#3F8676",
+    "#9050A8"
+  ],
+  "photo": {
+    "image": "photo.jpg",
+    "thumbnail": "thumbnail.jpg",
+    "title": "leading",
+    "ink": "#4A2438",
+    "scrim": 0.15
+  }
+}

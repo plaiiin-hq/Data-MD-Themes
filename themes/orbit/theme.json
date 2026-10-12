@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "id": "orbit",
+  "name": "Orbit",
+  "version": 1,
+  "look": "spotlight",
+  "appearance": "dark",
+  "page": "#07101D",
+  "text": "#D9E2EE",
+  "accent": "#FFB45A",
+  "sections": [
+    "#FFB45A",
+    "#6CB6F0",
+    "#5FD3CB",
+    "#9E90F5",
+    "#F27DB6",
+    "#7DDB8A"
+  ],
+  "photo": {
+    "image": "photo.jpg",
+    "thumbnail": "thumbnail.jpg",
+    "title": "topLeading",
+    "ink": "#FFFFFF",
+    "scrim": 0.0
+  }
+}

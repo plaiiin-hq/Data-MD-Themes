@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "id": "skyline",
+  "name": "Skyline",
+  "version": 1,
+  "look": "soft",
+  "appearance": "light",
+  "page": "#FBF5F4",
+  "text": "#2E2733",
+  "accent": "#C9573E",
+  "sections": [
+    "#C9573E",
+    "#6E5EA6",
+    "#3F74B0",
+    "#B8487A",
+    "#2F8682",
+    "#A87C2A"
+  ],
+  "photo": {
+    "image": "photo.jpg",
+    "thumbnail": "thumbnail.jpg",
+    "title": "topLeading",
+    "ink": "#2A2238",
+    "scrim": 0.2
+  }
+}

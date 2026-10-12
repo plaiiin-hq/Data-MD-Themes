@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "id": "riviera",
+  "name": "Riviera",
+  "version": 1,
+  "look": "editorial",
+  "appearance": "light",
+  "page": "#F8F2EA",
+  "text": "#2F2820",
+  "accent": "#62702E",
+  "sections": [
+    "#62702E",
+    "#A86E24",
+    "#2F6E8A",
+    "#94473A",
+    "#5A5A8F",
+    "#7E6526"
+  ],
+  "photo": {
+    "image": "photo.jpg",
+    "thumbnail": "thumbnail.jpg",
+    "title": "leading",
+    "ink": "#33291E",
+    "scrim": 0.0
+  }
+}

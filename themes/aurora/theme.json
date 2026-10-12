@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "id": "aurora",
+  "name": "Aurora",
+  "version": 1,
+  "look": "spotlight",
+  "appearance": "dark",
+  "page": "#081324",
+  "text": "#D6E4EA",
+  "accent": "#61C8A9",
+  "sections": [
+    "#61C8A9",
+    "#9488E8",
+    "#5FB3E8",
+    "#C07FE0",
+    "#8EDB7D",
+    "#F27DB6"
+  ],
+  "photo": {
+    "image": "photo.jpg",
+    "thumbnail": "thumbnail.jpg",
+    "title": "bottomLeading",
+    "ink": "#FFFFFF",
+    "scrim": 0.3
+  }
+}

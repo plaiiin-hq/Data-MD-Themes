@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "id": "daybreak",
+  "name": "Daybreak",
+  "version": 1,
+  "look": "bold",
+  "appearance": "light",
+  "page": "#F7F7FC",
+  "text": "#1E2133",
+  "accent": "#3F63E0",
+  "sections": [
+    "#3F63E0",
+    "#C2479F",
+    "#E0603E",
+    "#B07A12",
+    "#6A4FD8",
+    "#1F8FB0"
+  ],
+  "photo": {
+    "image": "photo.jpg",
+    "thumbnail": "thumbnail.jpg",
+    "title": "leading",
+    "ink": "#14183A",
+    "scrim": 0.25
+  }
+}
