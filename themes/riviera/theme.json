@@ -2,7 +2,7 @@
   "format": 1,
   "id": "riviera",
   "name": "Riviera",
-  "version": 1,
+  "version": 2,
   "look": "editorial",
   "appearance": "light",
   "page": "#F8F2EA",
@@ -21,6 +21,12 @@
     "thumbnail": "thumbnail.jpg",
     "title": "leading",
     "ink": "#33291E",
-    "scrim": 0.0
+    "scrim": 0.0,
+    "backgrounds": [
+      "background-1.jpg",
+      "background-2.jpg",
+      "background-3.jpg"
+    ],
+    "veil": 0.6
   }
 }
