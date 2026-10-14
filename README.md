@@ -33,8 +33,16 @@ themes/<id>/background-N.jpg any number, 16:9, behind content slides in turn
 
 ```json
 { "format": 1, "name": "plaiiin Slide Themes",
+  "home": "https://github.com/plaiiin-hq/Data-SlideThemes",
   "themes": [ { "id": "riviera", "version": 1 } ] }
 ```
+
+| Field | Meaning |
+|---|---|
+| `format` | `1`. |
+| `name` | The source's name, shown above its themes. |
+| `home` | Optional: where the source is published. A document set in one of its themes names it (`source=` in its `<!-- plaiiin … -->` line), so a reader without the source is offered to add it; and a folder on a Mac whose catalog names a home stands in for that published source there, as its working copy. |
+| `themes` | Each theme's `id` and `version`. |
 
 ### theme.json
 
@@ -60,3 +68,9 @@ themes/<id>/background-N.jpg any number, 16:9, behind content slides in turn
 ## Your own themes
 
 Any folder on the web laid out like this one is a theme source: a fork of this repository, or a repository of your own. Add it in plaiiin Docs under Settings → Slides → Theme Sources, as the repository's GitHub page or as the folder's URL.
+
+**Making one in the app.** In the Themes window, switch to **Decks** and choose **New Theme Repository…**: it makes a folder laid out like this one, with your source's name and `home`, and starts it with a copy of the theme you had selected. Published themes are read-only there; **Duplicate** copies one into your repository to change. Every change is saved as you make it, and the app raises the theme's `version` (in `theme.json` and `catalog.json`) once per editing. Commit and push to publish.
+
+**Trying one out.** A folder on your Mac is a theme source too: Settings → Slides → Theme Sources → **Add Folder…**. It is read where it is and every open deck in one of its themes redraws when a file in it changes, so an edit made in any editor shows at once, without a push or a version raised. A `theme.json` that does not read is listed there with what is wrong in it.
+
+**Sharing a document.** A document set in a theme from your source carries its `home`. A reader who has your source sees your theme; one who has not sees plaiiin's theme in the same look, and a bar offering to add your source. A theme from a folder with no `home` is marked "only on this Mac" in the theme menu: others will see the stand-in.
