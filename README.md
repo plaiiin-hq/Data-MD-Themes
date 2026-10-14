@@ -1,6 +1,6 @@
 # plaiiin Slide Themes
 
-The deck themes of [plaiiin Docs](https://plaiiin.com). The app reads this repository directly: it fetches `catalog.json` to see which themes exist and at which version, then a theme's colours and thumbnail, and its photo and backgrounds the first time a deck uses it. When a theme's `version` goes up, every app fetches it again.
+The deck themes of [plaiiin MD](https://plaiiin.com/plaiiin-md). The app reads this repository directly: it fetches `catalog.json` to see which themes exist and at which version, then a theme's colours and thumbnail, and its photo and backgrounds the first time a deck uses it. When a theme's `version` goes up, every app fetches it again.
 
 | Theme | Look | Page | Title slide |
 |---|---|---|---|
@@ -67,7 +67,7 @@ themes/<id>/background-N.jpg any number, 16:9, behind content slides in turn
 
 ## Your own themes
 
-Any folder on the web laid out like this one is a theme source: a fork of this repository, or a repository of your own. Add it in plaiiin Docs under Settings → Slides → Theme Sources, as the repository's GitHub page or as the folder's URL.
+Any folder on the web laid out like this one is a theme source: a fork of this repository, or a repository of your own. Add it in MD under Settings → Slides → Theme Sources, as the repository's GitHub page or as the folder's URL.
 
 **Making one in the app.** In the Themes window, switch to **Decks** and choose **New Theme Repository…**: it makes a folder laid out like this one, with your source's name and `home`, and starts it with a copy of the theme you had selected. Published themes are read-only there; **Duplicate** copies one into your repository to change. Every change is saved as you make it, and the app raises the theme's `version` (in `theme.json` and `catalog.json`) once per editing. Commit and push to publish.
 
