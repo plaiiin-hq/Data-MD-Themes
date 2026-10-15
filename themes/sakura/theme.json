@@ -2,7 +2,7 @@
   "format": 1,
   "id": "sakura",
   "name": "Sakura",
-  "version": 4,
+  "version": 5,
   "look": "soft",
   "appearance": "light",
   "page": "#FDF7F7",
@@ -29,5 +29,403 @@
     ],
     "veil": 0.6,
     "blur": 6
+  },
+  "design": {
+    "masters": {
+      "content": {
+        "background": [
+          {
+            "id": "background",
+            "kind": "picture",
+            "source": "background"
+          },
+          {
+            "fill": {
+              "color": "section",
+              "opacity": 0.045
+            },
+            "id": "wash",
+            "kind": "rect"
+          }
+        ],
+        "elements": [
+          {
+            "anchor": "topLeading",
+            "background": [
+              {
+                "fill": {
+                  "color": "section",
+                  "fallback": "secondary",
+                  "opacity": 0.14
+                },
+                "kind": "rect",
+                "radius": "full"
+              }
+            ],
+            "id": "header",
+            "items": [
+              {
+                "background": [
+                  {
+                    "fill": {
+                      "color": "section",
+                      "fallback": "secondary"
+                    },
+                    "kind": "ellipse"
+                  }
+                ],
+                "color": {
+                  "color": "on:section",
+                  "fallback": "on:secondary"
+                },
+                "height": 24,
+                "id": "number",
+                "kind": "text",
+                "maxLines": 1,
+                "role": "label",
+                "size": 14,
+                "text": "{section.number}",
+                "weight": "bold",
+                "width": 24
+              },
+              {
+                "color": {
+                  "color": "section",
+                  "fallback": "secondary"
+                },
+                "id": "title",
+                "kind": "text",
+                "maxLines": 1,
+                "role": "label",
+                "size": 18,
+                "text": "{section.title}",
+                "weight": "semibold"
+              }
+            ],
+            "kind": "row",
+            "margin": {
+              "leading": "margin",
+              "top": 12
+            },
+            "padding": {
+              "bottom": 4,
+              "leading": 5,
+              "top": 4,
+              "trailing": 14
+            },
+            "spacing": 10,
+            "when": [
+              "section"
+            ]
+          },
+          {
+            "anchor": "topLeading",
+            "height": 20,
+            "id": "footer",
+            "items": [
+              {
+                "color": "secondary",
+                "id": "deck",
+                "kind": "text",
+                "maxLines": 1,
+                "role": "label",
+                "size": 16,
+                "text": "{deck.title}",
+                "weight": "medium"
+              },
+              {
+                "id": "space",
+                "kind": "spacer",
+                "minLength": 40
+              },
+              {
+                "color": "secondary",
+                "id": "page",
+                "kind": "text",
+                "monospacedDigits": true,
+                "role": "label",
+                "size": 17,
+                "text": "{page.number}",
+                "weight": "medium"
+              }
+            ],
+            "kind": "row",
+            "layer": "above",
+            "margin": {
+              "leading": "margin",
+              "top": "100%-44"
+            },
+            "width": "100%-margin-margin"
+          }
+        ]
+      },
+      "section": {
+        "background": [
+          {
+            "blur": 28,
+            "id": "photo",
+            "kind": "picture",
+            "source": "photo",
+            "veil": 0.62,
+            "when": [
+              "photo"
+            ]
+          }
+        ],
+        "elements": [
+          {
+            "anchor": "topLeading",
+            "fill": {
+              "color": "section",
+              "opacity": 0.16
+            },
+            "height": "fill",
+            "id": "card",
+            "kind": "rect",
+            "margin": {
+              "bottom": 36,
+              "leading": 36,
+              "top": 36,
+              "trailing": 36
+            },
+            "radius": 56,
+            "when": [
+              "!photo"
+            ],
+            "width": "fill"
+          },
+          {
+            "anchor": "topLeading",
+            "fill": {
+              "color": "section",
+              "opacity": 0.12
+            },
+            "height": "fill",
+            "id": "photoCard",
+            "kind": "rect",
+            "margin": {
+              "bottom": 36,
+              "leading": 36,
+              "top": 36,
+              "trailing": 36
+            },
+            "radius": 56,
+            "when": [
+              "photo"
+            ],
+            "width": "fill"
+          },
+          {
+            "anchor": "topLeading",
+            "background": [
+              {
+                "fill": "section",
+                "kind": "ellipse"
+              }
+            ],
+            "color": "on:section",
+            "height": 120,
+            "id": "number",
+            "kind": "text",
+            "margin": {
+              "leading": 140,
+              "top": 140
+            },
+            "role": "label",
+            "size": 56,
+            "text": "{section.number}",
+            "weight": "bold",
+            "width": 120
+          },
+          {
+            "align": "leading",
+            "anchor": "bottomLeading",
+            "color": "section",
+            "id": "title",
+            "kind": "text",
+            "margin": {
+              "bottom": 140,
+              "leading": 140,
+              "trailing": 180
+            },
+            "maxLines": 3,
+            "minScale": 0.5,
+            "role": "display",
+            "size": 124,
+            "text": "{section.title}",
+            "weight": "bold",
+            "width": "fill"
+          }
+        ]
+      },
+      "title": {
+        "background": [
+          {
+            "id": "photo",
+            "kind": "picture",
+            "source": "photo",
+            "when": [
+              "photo"
+            ]
+          },
+          {
+            "id": "scrim",
+            "kind": "scrim",
+            "when": [
+              "photo"
+            ]
+          }
+        ],
+        "elements": [
+          {
+            "anchor": "topLeading",
+            "fill": {
+              "color": "section",
+              "opacity": 0.13
+            },
+            "height": "fill",
+            "id": "card",
+            "items": [
+              {
+                "anchor": "topTrailing",
+                "fill": {
+                  "color": "section",
+                  "opacity": 0.22
+                },
+                "height": 520,
+                "id": "bigDisc",
+                "kind": "ellipse",
+                "offset": [
+                  160,
+                  -200
+                ],
+                "width": 520
+              },
+              {
+                "anchor": "topTrailing",
+                "fill": {
+                  "color": "section",
+                  "opacity": 0.16
+                },
+                "height": 240,
+                "id": "smallDisc",
+                "kind": "ellipse",
+                "offset": [
+                  -300,
+                  170
+                ],
+                "width": 240
+              }
+            ],
+            "kind": "rect",
+            "margin": {
+              "bottom": 36,
+              "leading": 36,
+              "top": 36,
+              "trailing": 36
+            },
+            "radius": 56,
+            "when": [
+              "!photo"
+            ],
+            "width": "fill"
+          },
+          {
+            "align": "leading",
+            "anchor": "bottomLeading",
+            "id": "block",
+            "items": [
+              {
+                "color": "section",
+                "id": "title",
+                "kind": "text",
+                "lineSpacing": -9.28,
+                "maxLines": 3,
+                "minScale": 0.5,
+                "role": "display",
+                "size": 116,
+                "text": "{deck.title}"
+              },
+              {
+                "color": "secondary",
+                "id": "subtitle",
+                "kind": "text",
+                "lineSpacing": 6,
+                "maxLines": 5,
+                "minScale": 0.6,
+                "role": "display",
+                "size": 32,
+                "text": "{deck.subtitle}",
+                "weight": "regular"
+              }
+            ],
+            "kind": "column",
+            "margin": {
+              "bottom": 140,
+              "leading": 140,
+              "trailing": 180
+            },
+            "spacing": 32,
+            "when": [
+              "!photo"
+            ],
+            "width": "fill"
+          },
+          {
+            "align": "leading",
+            "anchor": "photo",
+            "id": "photoBlock",
+            "items": [
+              {
+                "color": "ink",
+                "id": "title",
+                "kind": "text",
+                "lineSpacing": -9.28,
+                "maxLines": 3,
+                "minScale": 0.5,
+                "role": "display",
+                "size": 116,
+                "text": "{deck.title}"
+              },
+              {
+                "color": {
+                  "color": "ink",
+                  "opacity": 0.85
+                },
+                "id": "subtitle",
+                "kind": "text",
+                "lineSpacing": 6,
+                "maxLines": 5,
+                "minScale": 0.6,
+                "role": "display",
+                "size": 32,
+                "text": "{deck.subtitle}",
+                "weight": "regular"
+              }
+            ],
+            "kind": "column",
+            "margin": {
+              "bottom": 120,
+              "leading": 120,
+              "top": 120
+            },
+            "spacing": 32,
+            "when": [
+              "photo"
+            ],
+            "width": "56%"
+          }
+        ]
+      }
+    },
+    "type": {
+      "display": {
+        "design": "rounded",
+        "weight": "bold"
+      },
+      "label": {
+        "design": "rounded"
+      }
+    }
   }
 }
