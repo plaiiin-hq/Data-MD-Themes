@@ -64,6 +64,22 @@ themes/<id>/background-N.jpg any number, 16:9, behind content slides in turn
 | `photo.veil` | `0`–`1`, optional, default `0.35`: how much of the page lies over a background so text reads. |
 | `photo.blur` | Points, optional, default `24`: how far the background is blurred behind tables, callouts and code. `0` keeps it sharp. |
 | `rules` | `false`, optional: no horizontal rules after the title slide (Editorial's header rule and divider frame). |
+| `type`, `masters` | Optional: changes to the look itself — its faces, and anything its title slide, dividers, header and footer draw — written as only what differs. See [Changing the look](#changing-the-look). |
+
+### Changing the look
+
+A look is data: [slide designs](https://github.com/plaiiin-hq/Lib-Swift-DiagramKit/blob/main/docs/slide-designs.md) describes it, and each of the 4 is a file there (`Sources/MarkdownSlidesUI/Looks/`). A theme changes its look by naming the elements it changes by `id`:
+
+```json
+"masters": {
+  "section": { "elements": [
+    { "id": "card", "radius": 24, "fill": { "color": "section", "opacity": 0.1 } },
+    { "id": "number", "remove": true }
+  ] }
+}
+```
+
+Soft with the section card's corners at 24 pt, a lighter tint and no number; everything else stays Soft's. A new `id` adds an element. A `theme.json` whose changes do not hold together is not read, and the app says what is wrong.
 
 ## Your own themes
 
