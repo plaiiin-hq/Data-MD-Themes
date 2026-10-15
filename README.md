@@ -81,6 +81,8 @@ A look is data: [slide designs](https://github.com/plaiiin-hq/Lib-Swift-DiagramK
 
 Soft with the section card's corners at 24 pt, a lighter tint and no number; everything else stays Soft's. A new `id` adds an element. A `theme.json` whose changes do not hold together is not read, and the app says what is wrong.
 
+The content's boxes and tables go under `masters.content.boxes`: a callout's, quote's or code block's bar, fill, border and corners; a table's header, stripes, row and column lines, border, and highlighted rows (cells bold throughout, like a total). See [boxes and tables](https://github.com/plaiiin-hq/Lib-Swift-DiagramKit/blob/main/docs/slide-designs.md#boxes-and-tables).
+
 ## Your own themes
 
 Any folder on the web laid out like this one is a theme source: a fork of this repository, or a repository of your own. Add it in MD under Settings → Slides → Theme Sources, as the repository's GitHub page or as the folder's URL.
