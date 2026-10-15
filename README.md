@@ -54,7 +54,7 @@ themes/<id>/divider-N.jpg    optional, pictures for the dividers
 | `id` | Folder name: letters, digits, `-`. |
 | `name` | Shown in the picker. |
 | `version` | Raise it with every change, and the same number in `catalog.json`. |
-| `look` | `bold`, `soft`, `editorial` or `spotlight`: type, dividers, header and footer. |
+| `look` | `bold`, `soft`, `editorial` or `spotlight`: the look the theme started from. A theme without `design` draws this look as the app's version has it. |
 | `appearance` | `light` or `dark`: the content slides' page is fixed. |
 | `page`, `text`, `accent` | `#RRGGBB`: the content slides' page, body text and accent. |
 | `sections` | `#RRGGBB` list: the colours sections take in turn. |
@@ -67,24 +67,23 @@ themes/<id>/divider-N.jpg    optional, pictures for the dividers
 | `photo.blur` | Points, optional, default `24`: how far the background is blurred behind tables, callouts and code. `0` keeps it sharp. |
 | `photo.titles`, `photo.dividers` | File names, optional: more pictures for the title slide and the dividers than the one photo. A document picks which per slide (right-click it ▸ Background); dividers otherwise take theirs in turn. None: the photo, as before. |
 | `rules` | `false`, optional: no horizontal rules after the title slide (Editorial's header rule and divider frame). |
-| `type`, `masters` | Optional: changes to the look itself — its faces, and anything its title slide, dividers, header and footer draw — written as only what differs. See [Changing the look](#changing-the-look). |
+| `design` | Optional: the theme's whole design — its faces and everything its title slide, dividers, header and footer draw — drawn as written in every version of the app. What the Themes window writes. See [The design](#the-design). |
+| `type`, `masters` | Optional, the older form: changes laid over the look by element `id`. Still read; the Themes window writes `design` instead on the next change. |
 
-### Changing the look
+### The design
 
-A look is data: [slide designs](https://github.com/plaiiin-hq/Lib-Swift-DiagramKit/blob/main/docs/slide-designs.md) describes it, and each of the 4 is a file there (`Sources/MarkdownSlidesUI/Looks/`). A theme changes its look by naming the elements it changes by `id`:
+A design is data: [slide designs](https://github.com/plaiiin-hq/Lib-Swift-DiagramKit/blob/main/docs/slide-designs.md) describes it, and each of the 4 looks is one (`Sources/MarkdownSlidesUI/Looks/`). A theme with `design` holds its own in full — `type` and the `title`, `section` and `content` masters — so it draws the same whatever later versions do to the looks. The Themes window starts it from the theme's look and writes it on every change; **Design ▸ Start Over from** a look replaces it with that look's.
 
 ```json
-"masters": {
-  "section": { "elements": [
-    { "id": "card", "radius": 24, "fill": { "color": "section", "opacity": 0.1 } },
-    { "id": "number", "remove": true }
-  ] }
+"design": {
+  "type": { "display": { "design": "rounded", "weight": "bold" }, "label": { "weight": "semibold" } },
+  "masters": { "title": { "elements": [ … ] }, "section": { … }, "content": { … } }
 }
 ```
 
-Soft with the section card's corners at 24 pt, a lighter tint and no number; everything else stays Soft's. A new `id` adds an element. A `theme.json` whose changes do not hold together is not read, and the app says what is wrong.
+A theme without `design` is its look; the older form laid changes over it by element `id` under `type` and `masters` (`{ "id": "card", "radius": 24 }` changes the card, `"remove": true` takes it out), and is still read. A `theme.json` whose design does not hold together is not read, and the app says what is wrong.
 
-The content's boxes and tables go under `masters.content.boxes`: a callout's, quote's or code block's bar, fill, border and corners; a table's header, stripes, row and column lines, border, and highlighted rows (cells bold throughout, like a total). See [boxes and tables](https://github.com/plaiiin-hq/Lib-Swift-DiagramKit/blob/main/docs/slide-designs.md#boxes-and-tables).
+The content's boxes and tables go under `masters.content.boxes` (in `design`): a callout's, quote's or code block's bar, fill, border and corners; a table's header, stripes, row and column lines, border, and highlighted rows (cells bold throughout, like a total). See [boxes and tables](https://github.com/plaiiin-hq/Lib-Swift-DiagramKit/blob/main/docs/slide-designs.md#boxes-and-tables).
 
 ## Your own themes
 
