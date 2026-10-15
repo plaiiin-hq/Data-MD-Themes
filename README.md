@@ -27,6 +27,8 @@ themes/<id>/theme.json       colours, look, where the title sits
 themes/<id>/photo.jpg        the photo, 16:9
 themes/<id>/thumbnail.jpg    480 px wide, for the picker
 themes/<id>/background-N.jpg any number, 16:9, behind content slides in turn
+themes/<id>/title-N.jpg      optional, other pictures for the title slide
+themes/<id>/divider-N.jpg    optional, pictures for the dividers
 ```
 
 ### catalog.json
@@ -63,6 +65,7 @@ themes/<id>/background-N.jpg any number, 16:9, behind content slides in turn
 | `photo.backgrounds` | File names, optional: the pictures content slides take in turn, as many as you like. |
 | `photo.veil` | `0`–`1`, optional, default `0.35`: how much of the page lies over a background so text reads. |
 | `photo.blur` | Points, optional, default `24`: how far the background is blurred behind tables, callouts and code. `0` keeps it sharp. |
+| `photo.titles`, `photo.dividers` | File names, optional: more pictures for the title slide and the dividers than the one photo. A document picks which per slide (right-click it ▸ Background); dividers otherwise take theirs in turn. None: the photo, as before. |
 | `rules` | `false`, optional: no horizontal rules after the title slide (Editorial's header rule and divider frame). |
 | `type`, `masters` | Optional: changes to the look itself — its faces, and anything its title slide, dividers, header and footer draw — written as only what differs. See [Changing the look](#changing-the-look). |
 
