@@ -1,6 +1,6 @@
 # plaiiin Slide Themes
 
-The deck themes of [plaiiin MD](https://plaiiin.com/plaiiin-md). The app reads this repository directly: it fetches `catalog.json` to see which themes exist and at which version, then a theme's colours and thumbnail, and its photo and backgrounds the first time a deck uses it. When a theme's `version` goes up, every app fetches it again.
+The presentation themes of [plaiiin MD](https://plaiiin.com/plaiiin-md). The app reads this repository directly: it fetches `catalog.json` to see which themes exist and at which version, then a theme's colours and thumbnail, and its photo and backgrounds the first time a document uses it. When a theme's `version` goes up, every app fetches it again.
 
 | Theme | Look | Page | Title slide |
 |---|---|---|---|
@@ -89,8 +89,8 @@ The content's boxes and tables go under `masters.content.boxes` (in `design`): a
 
 Any folder on the web laid out like this one is a theme source: a fork of this repository, or a repository of your own. Add it in MD under Settings → Slides → Theme Sources, as the repository's GitHub page or as the folder's URL.
 
-**Making one in the app.** In the Themes window, switch to **Decks** and choose **New Theme Repository…**: it makes a folder laid out like this one, with your source's name and `home`, and starts it with a copy of the theme you had selected. Published themes are read-only there; **Duplicate** copies one into your repository to change. Every change is saved as you make it, and the app raises the theme's `version` (in `theme.json` and `catalog.json`) once per editing. Commit and push to publish.
+**Making one in the app.** In the Themes window, switch to **Presentation** and choose **New Theme Repository…**: it makes a folder laid out like this one, with your source's name and `home`, and starts it with a copy of the theme you had selected. Published themes are read-only there; **Duplicate** copies one into your repository to change. Every change is saved as you make it, and the app raises the theme's `version` (in `theme.json` and `catalog.json`) once per editing. Commit and push to publish.
 
-**Trying one out.** A folder on your Mac is a theme source too: Settings → Slides → Theme Sources → **Add Folder…**. It is read where it is and every open deck in one of its themes redraws when a file in it changes, so an edit made in any editor shows at once, without a push or a version raised. A `theme.json` that does not read is listed there with what is wrong in it.
+**Trying one out.** A folder on your Mac is a theme source too: Settings → Slides → Theme Sources → **Add Folder…**. It is read where it is and every open document in one of its themes redraws when a file in it changes, so an edit made in any editor shows at once, without a push or a version raised. A `theme.json` that does not read is listed there with what is wrong in it.
 
 **Sharing a document.** A document set in a theme from your source carries its `home`. A reader who has your source sees your theme; one who has not sees plaiiin's theme in the same look, and a bar offering to add your source. A theme from a folder with no `home` is marked "only on this Mac" in the theme menu: others will see the stand-in.
