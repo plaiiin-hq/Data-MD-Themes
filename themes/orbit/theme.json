@@ -2,7 +2,7 @@
   "format": 1,
   "id": "orbit",
   "name": "Orbit",
-  "version": 5,
+  "version": 6,
   "look": "spotlight",
   "appearance": "dark",
   "page": "#07101D",
@@ -149,7 +149,41 @@
             },
             "width": "100%-margin-margin"
           }
-        ]
+        ],
+        "boxes": {
+          "table": {
+            "header": {
+              "color": "text",
+              "opacity": 0.16
+            },
+            "zebra": "hidden",
+            "border": {
+              "color": "text",
+              "opacity": 0.06
+            },
+            "borderWidth": 2,
+            "radius": 24,
+            "cellGap": 4,
+            "outlineGap": 8,
+            "cellRadius": 10,
+            "cell": {
+              "color": "text",
+              "opacity": 0.07
+            },
+            "highlight": {
+              "fill": {
+                "color": "accent",
+                "opacity": 0.28
+              }
+            },
+            "cellShadow": {
+              "blur": 10,
+              "y": 4,
+              "opacity": 0.3,
+              "inside": true
+            }
+          }
+        }
       },
       "section": {
         "background": [

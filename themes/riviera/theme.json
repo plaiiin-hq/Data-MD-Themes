@@ -2,7 +2,7 @@
   "format": 1,
   "id": "riviera",
   "name": "Riviera",
-  "version": 6,
+  "version": 7,
   "look": "editorial",
   "appearance": "light",
   "page": "#F8F2EA",
@@ -127,7 +127,31 @@
             },
             "width": "100%-margin-margin"
           }
-        ]
+        ],
+        "boxes": {
+          "table": {
+            "header": {
+              "color": "accent",
+              "opacity": 0.13
+            },
+            "zebra": {
+              "color": "accent",
+              "opacity": 0.045
+            },
+            "rowLines": "hidden",
+            "border": {
+              "color": "accent",
+              "opacity": 0.16
+            },
+            "borderWidth": 2,
+            "radius": 20,
+            "shadow": {
+              "blur": 28,
+              "y": 12,
+              "opacity": 0.1
+            }
+          }
+        }
       },
       "section": {
         "background": [

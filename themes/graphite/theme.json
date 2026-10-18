@@ -2,7 +2,7 @@
   "format": 1,
   "id": "graphite",
   "name": "Graphite",
-  "version": 5,
+  "version": 6,
   "look": "spotlight",
   "appearance": "dark",
   "page": "#0E0F12",
@@ -149,7 +149,23 @@
             },
             "width": "100%-margin-margin"
           }
-        ]
+        ],
+        "boxes": {
+          "table": {
+            "header": "hidden",
+            "headerLine": {
+              "color": "text",
+              "opacity": 0.85
+            },
+            "zebra": "hidden",
+            "rowLines": {
+              "color": "text",
+              "opacity": 0.14
+            },
+            "border": "hidden",
+            "borderWidth": 0
+          }
+        }
       },
       "section": {
         "background": [

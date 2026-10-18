@@ -16,6 +16,8 @@ The presentation themes of [plaiiin MD](https://plaiiin.com/plaiiin-md). The app
 | Orbit | Spotlight | dark | top left |
 | Aurora | Spotlight | dark | bottom left |
 | Graphite | Spotlight | dark | top left |
+| Porcelain | Soft | light | left |
+| Alabaster | Editorial | light | left |
 
 Each theme sets the title slide on its photo and each section's divider on a veiled copy of it. Content slides take the theme's backgrounds in turn — quieter pictures with room for text — under a veil of the page; a theme with none keeps a plain page.
 
@@ -94,3 +96,7 @@ Any folder on the web laid out like this one is a theme source: a fork of this r
 **Trying one out.** A folder on your Mac is a theme source too: Settings → Slides → Theme Sources → **Add Folder…**. It is read where it is and every open document in one of its themes redraws when a file in it changes, so an edit made in any editor shows at once, without a push or a version raised. A `theme.json` that does not read is listed there with what is wrong in it.
 
 **Sharing a document.** A document set in a theme from your source carries its `home`. A reader who has your source sees your theme; one who has not sees plaiiin's theme in the same look, and a bar offering to add your source. A theme from a folder with no `home` is marked "only on this Mac" in the theme menu: others will see the stand-in.
+
+## Tables and shadows
+
+Each theme draws tables in one style, under `design.masters.content.boxes.table`: **Ledger** (Pavilion, Tower, Graphite), **Zebra** (Riviera, Dune), **Tiles** (Botanic, Sakura, Skyline), **Blueprint** (Prism, Daybreak) and **Glass** (Aurora, Orbit). Colours come from the theme (accent, text), so a style is the same shaping in every theme. Soft themes also lift their quote, callout and code boxes and pictures with a drop shadow; Riviera and Dune lift the whole table; Aurora and Orbit set their cells in with an inner shadow. **Porcelain** is white cards on a very light page, lifted by shadows everywhere; **Alabaster** is the opposite, the same page with everything pressed in by inner shadows.

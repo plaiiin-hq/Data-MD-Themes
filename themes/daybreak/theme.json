@@ -2,7 +2,7 @@
   "format": 1,
   "id": "daybreak",
   "name": "Daybreak",
-  "version": 5,
+  "version": 6,
   "look": "bold",
   "appearance": "light",
   "page": "#F7F7FC",
@@ -129,7 +129,28 @@
             },
             "width": "100%-margin-margin"
           }
-        ]
+        ],
+        "boxes": {
+          "table": {
+            "header": {
+              "color": "accent",
+              "opacity": 0.55
+            },
+            "zebra": "hidden",
+            "border": "hidden",
+            "borderWidth": 0,
+            "radius": 8,
+            "cellGap": 3,
+            "outlineGap": 3,
+            "cellRadius": 0,
+            "cell": "hidden",
+            "gridColor": {
+              "color": "accent",
+              "opacity": 0.55
+            },
+            "headerText": "text"
+          }
+        }
       },
       "section": {
         "background": [

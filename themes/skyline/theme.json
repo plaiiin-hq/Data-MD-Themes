@@ -2,7 +2,7 @@
   "format": 1,
   "id": "skyline",
   "name": "Skyline",
-  "version": 5,
+  "version": 6,
   "look": "soft",
   "appearance": "light",
   "page": "#FBF5F4",
@@ -157,7 +157,62 @@
             },
             "width": "100%-margin-margin"
           }
-        ]
+        ],
+        "boxes": {
+          "table": {
+            "header": {
+              "color": "accent",
+              "opacity": 0.2
+            },
+            "zebra": "hidden",
+            "border": "hidden",
+            "borderWidth": 0,
+            "radius": 28,
+            "cellGap": 6,
+            "outlineGap": 0,
+            "cellRadius": 8,
+            "cell": {
+              "color": "accent",
+              "opacity": 0.08
+            },
+            "cellShadow": {
+              "blur": 8,
+              "y": 4,
+              "opacity": 0.1
+            }
+          },
+          "quote": {
+            "shadow": {
+              "blur": 24,
+              "y": 10,
+              "opacity": 0.1
+            }
+          },
+          "callout": {
+            "shadow": {
+              "blur": 24,
+              "y": 10,
+              "opacity": 0.1
+            }
+          },
+          "code": {
+            "shadow": {
+              "blur": 24,
+              "y": 10,
+              "opacity": 0.1
+            }
+          },
+          "image": {
+            "cornerRadii": {
+              "topLeading": 12,
+              "topTrailing": 12,
+              "bottomTrailing": 12,
+              "bottomLeading": 12
+            },
+            "shadowRadius": 24,
+            "shadowOpacity": 0.16
+          }
+        }
       },
       "section": {
         "background": [
