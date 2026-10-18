@@ -97,6 +97,10 @@ Any folder on the web laid out like this one is a theme source: a fork of this r
 
 **Sharing a document.** A document set in a theme from your source carries its `home`. A reader who has your source sees your theme; one who has not sees plaiiin's theme in the same look, and a bar offering to add your source. A theme from a folder with no `home` is marked "only on this Mac" in the theme menu: others will see the stand-in.
 
+## Text regions
+
+`photo.regions` (optional) says where the text goes on a picture, by the picture's file name: `{"background-2.jpg": {"x": 0.55, "y": 0.1, "width": 0.4, "height": 0.8}}`, fractions of the slide from its top left (each side at least 0.15). A content slide takes the region of the background it lies on, and its text is fitted there; the title slide's title block and a divider's text block sit in the region of the photo, title or divider picture they are set on. A picture without an entry keeps the theme's own place; the closing slide has none. An app older than this reads the theme without it.
+
 ## Tables and shadows
 
 Each theme draws tables in one style, under `design.masters.content.boxes.table`: **Ledger** (Pavilion, Tower, Graphite), **Zebra** (Riviera, Dune), **Tiles** (Botanic, Sakura, Skyline), **Blueprint** (Prism, Daybreak) and **Glass** (Aurora, Orbit). Colours come from the theme (accent, text), so a style is the same shaping in every theme. Soft themes also lift their quote, callout and code boxes and pictures with a drop shadow; Riviera and Dune lift the whole table; Aurora and Orbit set their cells in with an inner shadow. **Porcelain** is white cards on a very light page, lifted by shadows everywhere; **Alabaster** is the opposite, the same page with everything pressed in by inner shadows.
