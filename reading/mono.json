@@ -1,0 +1,11 @@
+{
+  "appearance" : "system",
+  "base" : "mono",
+  "colors" : {
+
+  },
+  "format" : 1,
+  "id" : "mono",
+  "name" : "Mono",
+  "version" : 1
+}

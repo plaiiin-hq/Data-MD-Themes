@@ -59,5 +59,71 @@
       "id": "alabaster",
       "version": 1
     }
+  ],
+  "reading": [
+    {
+      "id": "standard",
+      "version": 1
+    },
+    {
+      "id": "paper",
+      "version": 1
+    },
+    {
+      "id": "ink",
+      "version": 1
+    },
+    {
+      "id": "plaiiin",
+      "version": 1
+    },
+    {
+      "id": "slate",
+      "version": 1
+    },
+    {
+      "id": "dusk",
+      "version": 1
+    },
+    {
+      "id": "sepia",
+      "version": 1
+    },
+    {
+      "id": "meadow",
+      "version": 1
+    },
+    {
+      "id": "rose",
+      "version": 1
+    },
+    {
+      "id": "mono",
+      "version": 1
+    },
+    {
+      "id": "clarity",
+      "version": 1
+    },
+    {
+      "id": "indigo",
+      "version": 1
+    },
+    {
+      "id": "terracotta",
+      "version": 1
+    },
+    {
+      "id": "forest",
+      "version": 1
+    },
+    {
+      "id": "plum",
+      "version": 1
+    },
+    {
+      "id": "teal",
+      "version": 1
+    }
   ]
 }

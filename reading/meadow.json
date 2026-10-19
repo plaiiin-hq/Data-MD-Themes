@@ -1,0 +1,11 @@
+{
+  "appearance" : "system",
+  "base" : "meadow",
+  "colors" : {
+
+  },
+  "format" : 1,
+  "id" : "meadow",
+  "name" : "Meadow",
+  "version" : 1
+}

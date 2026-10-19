@@ -1,0 +1,11 @@
+{
+  "appearance" : "system",
+  "base" : "terracotta",
+  "colors" : {
+
+  },
+  "format" : 1,
+  "id" : "terracotta",
+  "name" : "Terracotta",
+  "version" : 1
+}

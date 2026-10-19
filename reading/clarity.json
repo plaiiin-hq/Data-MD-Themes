@@ -1,0 +1,11 @@
+{
+  "appearance" : "system",
+  "base" : "clarity",
+  "colors" : {
+
+  },
+  "format" : 1,
+  "id" : "clarity",
+  "name" : "Clarity",
+  "version" : 1
+}

@@ -1,0 +1,11 @@
+{
+  "appearance" : "system",
+  "base" : "paper",
+  "colors" : {
+
+  },
+  "format" : 1,
+  "id" : "paper",
+  "name" : "Paper",
+  "version" : 1
+}

@@ -1,0 +1,11 @@
+{
+  "appearance" : "system",
+  "base" : "indigo",
+  "colors" : {
+
+  },
+  "format" : 1,
+  "id" : "indigo",
+  "name" : "Indigo",
+  "version" : 1
+}

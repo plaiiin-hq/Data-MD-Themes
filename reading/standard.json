@@ -1,0 +1,11 @@
+{
+  "appearance" : "system",
+  "base" : "standard",
+  "colors" : {
+
+  },
+  "format" : 1,
+  "id" : "standard",
+  "name" : "Standard",
+  "version" : 1
+}

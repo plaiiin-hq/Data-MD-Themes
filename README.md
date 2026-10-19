@@ -47,6 +47,7 @@ themes/<id>/divider-N.jpg    optional, pictures for the dividers
 | `name` | The source's name, shown above its themes. |
 | `home` | Optional: where the source is published. A document set in one of its themes names it (`source=` in its `<!-- plaiiin … -->` line), so a reader without the source is offered to add it; and a folder on a Mac whose catalog names a home stands in for that published source there, as its working copy. |
 | `themes` | Each theme's `id` and `version`. |
+| `reading` | Optional: each reading theme's `id` and `version`, its file at `reading/<id>.json`. |
 
 ### theme.json
 
@@ -86,6 +87,27 @@ A design is data: [slide designs](https://github.com/plaiiin-hq/Lib-Swift-Diagra
 A theme without `design` is its look; the older form laid changes over it by element `id` under `type` and `masters` (`{ "id": "card", "radius": 24 }` changes the card, `"remove": true` takes it out), and is still read. A `theme.json` whose design does not hold together is not read, and the app says what is wrong.
 
 The content's boxes and tables go under `masters.content.boxes` (in `design`): a callout's, quote's or code block's bar, fill, border and corners; a table's header, stripes, row and column lines, border, and highlighted rows (cells bold throughout, like a total). See [boxes and tables](https://github.com/plaiiin-hq/Lib-Swift-DiagramKit/blob/main/docs/slide-designs.md#boxes-and-tables).
+
+## Reading themes
+
+MD's built-in reading themes are published here too, one file each under `reading/`, and listed under `reading` in `catalog.json`. MD fetches them as it does the presentation themes, and a fetched one takes the place of the copy compiled into the app. The compiled copies are what MD shows offline and before its first fetch.
+
+| Theme | | Theme | | Theme | |
+|---|---|---|---|---|---|
+| Standard | `standard` | Slate | `slate` | Clarity | `clarity` |
+| Paper | `paper` | Dusk | `dusk` | Indigo | `indigo` |
+| Ink | `ink` | Sepia | `sepia` | Terracotta | `terracotta` |
+| plaiiin | `plaiiin` | Meadow | `meadow` | Forest | `forest` |
+| Mono | `mono` | Rose | `rose` | Plum | `plum` |
+| Teal | `teal` | | | | |
+
+A file is a reading theme as MD stores one: the built-in it builds on (`base`) and what it changes from it. Each built-in starts as its own base with nothing changed, so it draws exactly as the app has it:
+
+```json
+{ "format": 1, "version": 1, "id": "paper", "name": "Paper", "base": "paper", "appearance": "system", "colors": {} }
+```
+
+To change one, add what it changes (the easiest way: duplicate it in MD's Themes window, change the copy, and look at its file in My Themes), then raise `version` in the file and in `catalog.json`, so every app fetches it again. A new reading theme gets a new id, builds on the built-in nearest to it, and is listed the same way. Only this repository may publish a built-in's id; another source with the same id is not shown.
 
 ## Your own themes
 

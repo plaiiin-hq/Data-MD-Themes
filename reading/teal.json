@@ -1,0 +1,11 @@
+{
+  "appearance" : "system",
+  "base" : "teal",
+  "colors" : {
+
+  },
+  "format" : 1,
+  "id" : "teal",
+  "name" : "Teal",
+  "version" : 1
+}
