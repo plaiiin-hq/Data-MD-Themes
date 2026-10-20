@@ -1,6 +1,6 @@
-# plaiiin Slide Themes
+# plaiiin Collection
 
-The presentation themes of [plaiiin MD](https://plaiiin.com/plaiiin-md). The app reads this repository directly: it fetches `catalog.json` to see which themes exist and at which version, then a theme's colours and thumbnail, and its photo and backgrounds the first time a document uses it. When a theme's `version` goes up, every app fetches it again.
+The plaiiin Collection: the official themes of [plaiiin MD](https://plaiiin.com/plaiiin-md), free for everyone, reading and presentation. They are kept here so they can be improved without an app update; they are not edited in the app. The app reads this repository directly: it fetches `catalog.json` to see which themes exist and at which version, then a theme's colours and thumbnail, and its photo and backgrounds the first time a document uses it. When a theme's `version` goes up, every app fetches it again.
 
 | Theme | Look | Page | Title slide |
 |---|---|---|---|
@@ -37,7 +37,7 @@ themes/<id>/divider-N.jpg    optional, pictures for the dividers
 ### catalog.json
 
 ```json
-{ "format": 1, "name": "plaiiin Slide Themes",
+{ "format": 1, "name": "plaiiin Collection",
   "home": "https://github.com/plaiiin-hq/Data-SlideThemes",
   "themes": [ { "id": "riviera", "version": 1 } ] }
 ```
