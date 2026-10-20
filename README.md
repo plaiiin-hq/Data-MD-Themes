@@ -36,7 +36,9 @@ themes/slides/<id>/thumbnail.jpg   480 px wide, for the picker
 themes/slides/<id>/background-N.jpg   any number, 16:9, behind content slides in turn
 themes/slides/<id>/title-N.jpg     optional, other pictures for the title slide
 themes/slides/<id>/divider-N.jpg   optional, pictures for the dividers
-themes/reading/<id>.json           a reading theme
+themes/reading/<id>/theme.json     a reading theme
+themes/reading/<id>/fonts/<Family>/<file>   fonts it embeds, optional
+themes/reading/<id>/<picture>.jpg  pictures it may carry, optional
 ```
 
 ### catalog.json
@@ -53,7 +55,7 @@ themes/reading/<id>.json           a reading theme
 | `name` | The source's name, shown above its themes. |
 | `home` | Optional: where the source is published. A document set in one of its themes names it (`source=` in its `<!-- plaiiin … -->` line), so a reader without the source is offered to add it; and a folder on a Mac whose catalog names a home stands in for that published source there, as its working copy. |
 | `themes` | Each theme's `id` and `version`. |
-| `reading` | Optional: each reading theme's `id` and `version`, its file at `themes/reading/<id>.json`. |
+| `reading` | Optional: each reading theme's `id` and `version`, its folder `themes/reading/<id>/`, with `theme.json` in it. |
 
 ### theme.json
 
@@ -96,7 +98,7 @@ The content's boxes and tables go under `masters.content.boxes` (in `design`): a
 
 ## Reading themes
 
-MD's built-in reading themes are published here too, one file each under `themes/reading/`, and listed under `reading` in `catalog.json`. MD fetches them as it does the presentation themes, and a fetched one takes the place of the copy compiled into the app. The compiled copies are what MD shows offline and before its first fetch.
+MD's built-in reading themes are published here too, one folder each under `themes/reading/`, and listed under `reading` in `catalog.json`. MD fetches them as it does the presentation themes, and a fetched one takes the place of the copy compiled into the app. The compiled copies are what MD shows offline and before its first fetch.
 
 | Theme | | Theme | | Theme | |
 |---|---|---|---|---|---|
