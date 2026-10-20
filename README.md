@@ -4,7 +4,7 @@ The plaiiin Collection: the official themes of [plaiiin MD](https://plaiiin.com/
 
 ## Presentation themes
 
-In `themes/`, each a folder with its pictures:
+In `themes/slides/`, each a folder with its pictures:
 
 | Theme | Look | Page | Title slide |
 |---|---|---|---|
@@ -29,13 +29,14 @@ Each theme sets the title slide on its photo and each section's divider on a vei
 ## Layout
 
 ```
-catalog.json                 which themes, at which version
-themes/<id>/theme.json       colours, look, where the title sits
-themes/<id>/photo.jpg        the photo, 16:9
-themes/<id>/thumbnail.jpg    480 px wide, for the picker
-themes/<id>/background-N.jpg any number, 16:9, behind content slides in turn
-themes/<id>/title-N.jpg      optional, other pictures for the title slide
-themes/<id>/divider-N.jpg    optional, pictures for the dividers
+catalog.json                       which themes, at which version
+themes/slides/<id>/theme.json      colours, look, where the title sits
+themes/slides/<id>/photo.jpg       the photo, 16:9
+themes/slides/<id>/thumbnail.jpg   480 px wide, for the picker
+themes/slides/<id>/background-N.jpg   any number, 16:9, behind content slides in turn
+themes/slides/<id>/title-N.jpg     optional, other pictures for the title slide
+themes/slides/<id>/divider-N.jpg   optional, pictures for the dividers
+themes/reading/<id>.json           a reading theme
 ```
 
 ### catalog.json
@@ -52,7 +53,7 @@ themes/<id>/divider-N.jpg    optional, pictures for the dividers
 | `name` | The source's name, shown above its themes. |
 | `home` | Optional: where the source is published. A document set in one of its themes names it (`source=` in its `<!-- plaiiin … -->` line), so a reader without the source is offered to add it; and a folder on a Mac whose catalog names a home stands in for that published source there, as its working copy. |
 | `themes` | Each theme's `id` and `version`. |
-| `reading` | Optional: each reading theme's `id` and `version`, its file at `reading/<id>.json`. |
+| `reading` | Optional: each reading theme's `id` and `version`, its file at `themes/reading/<id>.json`. |
 
 ### theme.json
 
@@ -95,7 +96,7 @@ The content's boxes and tables go under `masters.content.boxes` (in `design`): a
 
 ## Reading themes
 
-MD's built-in reading themes are published here too, one file each under `reading/`, and listed under `reading` in `catalog.json`. MD fetches them as it does the presentation themes, and a fetched one takes the place of the copy compiled into the app. The compiled copies are what MD shows offline and before its first fetch.
+MD's built-in reading themes are published here too, one file each under `themes/reading/`, and listed under `reading` in `catalog.json`. MD fetches them as it does the presentation themes, and a fetched one takes the place of the copy compiled into the app. The compiled copies are what MD shows offline and before its first fetch.
 
 | Theme | | Theme | | Theme | |
 |---|---|---|---|---|---|
