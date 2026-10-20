@@ -18,6 +18,7 @@ The presentation themes of [plaiiin MD](https://plaiiin.com/plaiiin-md). The app
 | Graphite | Spotlight | dark | top left |
 | Porcelain | Soft | light | left |
 | Alabaster | Editorial | light | left |
+| Golden Meadow | Soft | light | left |
 
 Each theme sets the title slide on its photo and each section's divider on a veiled copy of it. Content slides take the theme's backgrounds in turn — quieter pictures with room for text — under a veil of the page; a theme with none keeps a plain page.
 
