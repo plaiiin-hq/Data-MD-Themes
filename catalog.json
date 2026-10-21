@@ -67,67 +67,67 @@
   "reading": [
     {
       "id": "standard",
-      "version": 1
+      "version": 3
     },
     {
       "id": "paper",
-      "version": 1
+      "version": 3
     },
     {
       "id": "ink",
-      "version": 1
+      "version": 3
     },
     {
       "id": "plaiiin",
-      "version": 1
+      "version": 3
     },
     {
       "id": "slate",
-      "version": 1
+      "version": 3
     },
     {
       "id": "dusk",
-      "version": 1
+      "version": 3
     },
     {
       "id": "sepia",
-      "version": 1
+      "version": 3
     },
     {
       "id": "meadow",
-      "version": 1
+      "version": 3
     },
     {
       "id": "rose",
-      "version": 1
+      "version": 3
     },
     {
       "id": "mono",
-      "version": 1
+      "version": 3
     },
     {
       "id": "clarity",
-      "version": 1
+      "version": 3
     },
     {
       "id": "indigo",
-      "version": 1
+      "version": 3
     },
     {
       "id": "terracotta",
-      "version": 1
+      "version": 3
     },
     {
       "id": "forest",
-      "version": 1
+      "version": 3
     },
     {
       "id": "plum",
-      "version": 1
+      "version": 3
     },
     {
       "id": "teal",
-      "version": 1
+      "version": 3
     }
   ]
 }

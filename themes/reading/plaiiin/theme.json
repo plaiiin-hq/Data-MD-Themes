@@ -1,11 +1,107 @@
 {
-  "appearance" : "system",
-  "base" : "plaiiin",
-  "colors" : {
-
+  "appearance": "system",
+  "base": "plaiiin",
+  "boxes": {
+    "callout": {
+      "barSides": [],
+      "bodyInset": 22,
+      "fill": {
+        "dark": "3B2A1A12",
+        "light": "3B2A1A12"
+      },
+      "iconInKindColor": true,
+      "title": {
+        "dark": "000000CC",
+        "light": "000000CC"
+      }
+    },
+    "code": {
+      "borderWidth": 0,
+      "cellGap": 2,
+      "cellRadius": 0,
+      "clearFrame": true,
+      "edgeGap": 0,
+      "ground": {
+        "dark": "3B2A1A12",
+        "light": "3B2A1A12"
+      },
+      "radius": 6,
+      "text": {
+        "dark": "4A5A0AFF",
+        "light": "4A5A0AFF"
+      },
+      "titleLikeTableHeader": true
+    },
+    "quote": {
+      "barSides": [],
+      "fill": {
+        "dark": "3B2A1A12",
+        "light": "3B2A1A12"
+      }
+    },
+    "table": {
+      "borderWidth": 0,
+      "cell": {
+        "dark": "3B2A1A12",
+        "light": "3B2A1A12"
+      },
+      "cellGap": 2,
+      "cellRadius": 0,
+      "headerText": {
+        "dark": "4A5A0AFF",
+        "light": "4A5A0AFF"
+      },
+      "outlineGap": 0,
+      "radius": 6,
+      "stripes": false
+    }
   },
-  "format" : 1,
-  "id" : "plaiiin",
-  "name" : "plaiiin",
-  "version" : 1
+  "colors": {
+    "codeHeaderBackground": {
+      "dark": "3B2A1A1A",
+      "light": "3B2A1A1A"
+    },
+    "tableHeaderBackground": {
+      "dark": "3B2A1A1A",
+      "light": "3B2A1A1A"
+    }
+  },
+  "format": 1,
+  "headingColors": [
+    {
+      "dark": "B9D26EFF",
+      "light": "B9D26EFF"
+    },
+    {
+      "dark": "94AA4DFF",
+      "light": "94AA4DFF"
+    },
+    {
+      "dark": "6F822BFF",
+      "light": "6F822BFF"
+    },
+    {
+      "dark": "4A5A0AFF",
+      "light": "4A5A0AFF"
+    }
+  ],
+  "id": "plaiiin",
+  "inlineChip": {
+    "cornerRadii": {
+      "bottomLeading": 4,
+      "bottomTrailing": 4,
+      "topLeading": 4,
+      "topTrailing": 4
+    },
+    "padLeading": 2,
+    "padTrailing": 2,
+    "padVertical": 1
+  },
+  "name": "plaiiin",
+  "sectionColors": false,
+  "taskColor": {
+    "dark": "4A5A0AFF",
+    "light": "4A5A0AFF"
+  },
+  "version": 3
 }

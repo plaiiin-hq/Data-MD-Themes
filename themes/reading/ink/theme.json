@@ -1,11 +1,133 @@
 {
-  "appearance" : "system",
-  "base" : "ink",
-  "colors" : {
-
+  "appearance": "system",
+  "base": "ink",
+  "boxes": {
+    "callout": {
+      "barSides": [],
+      "bodyInset": 22,
+      "fill": {
+        "dark": "1C1C1E12",
+        "light": "1C1C1E12"
+      },
+      "iconInKindColor": true,
+      "title": {
+        "dark": "0B5C75FF",
+        "light": "0B5C75FF"
+      }
+    },
+    "callouts": {
+      "important": {
+        "iconColor": {
+          "dark": "0B5C75FF",
+          "light": "0B5C75FF"
+        }
+      },
+      "note": {
+        "iconColor": {
+          "dark": "0B5C75FF",
+          "light": "0B5C75FF"
+        }
+      },
+      "tip": {
+        "iconColor": {
+          "dark": "0B5C75FF",
+          "light": "0B5C75FF"
+        }
+      }
+    },
+    "code": {
+      "borderWidth": 0,
+      "cellGap": 2,
+      "cellRadius": 0,
+      "clearFrame": true,
+      "copyText": {
+        "dark": "0B5C75FF",
+        "light": "0B5C75FF"
+      },
+      "edgeGap": 0,
+      "ground": {
+        "dark": "1C1C1E12",
+        "light": "1C1C1E12"
+      },
+      "radius": 6,
+      "titleLikeTableHeader": true
+    },
+    "quote": {
+      "barSides": [],
+      "fill": {
+        "dark": "1C1C1E12",
+        "light": "1C1C1E12"
+      }
+    },
+    "table": {
+      "borderWidth": 0,
+      "cell": {
+        "dark": "1C1C1E12",
+        "light": "1C1C1E12"
+      },
+      "cellGap": 2,
+      "cellRadius": 0,
+      "headerText": {
+        "dark": "0B5C75FF",
+        "light": "0B5C75FF"
+      },
+      "outlineGap": 0,
+      "radius": 6,
+      "stripes": false
+    }
   },
-  "format" : 1,
-  "id" : "ink",
-  "name" : "Ink",
-  "version" : 1
+  "colors": {
+    "codeHeaderBackground": {
+      "dark": "1C1C1E1A",
+      "light": "1C1C1E1A"
+    },
+    "done": {
+      "dark": "1C1C1E99",
+      "light": "1C1C1E99"
+    },
+    "failed": {
+      "dark": "CB5C5CFF",
+      "light": "CB5C5CFF"
+    },
+    "headings": {
+      "dark": "0B5C75FF",
+      "light": "0B5C75FF"
+    },
+    "listMarker": {
+      "dark": "0B5C75FF",
+      "light": "0B5C75FF"
+    },
+    "open": {
+      "dark": "D08B40FF",
+      "light": "D08B40FF"
+    },
+    "tableHeaderBackground": {
+      "dark": "1C1C1E1A",
+      "light": "1C1C1E1A"
+    },
+    "title": {
+      "dark": "0B5C75FF",
+      "light": "0B5C75FF"
+    }
+  },
+  "format": 1,
+  "id": "ink",
+  "inlineChip": {
+    "cornerRadii": {
+      "bottomLeading": 4,
+      "bottomTrailing": 4,
+      "topLeading": 4,
+      "topTrailing": 4
+    },
+    "padLeading": 2,
+    "padTrailing": 2,
+    "padVertical": 1
+  },
+  "name": "Ink",
+  "sectionColors": false,
+  "taskColor": {
+    "dark": "0B5C75FF",
+    "light": "0B5C75FF"
+  },
+  "version": 3
 }

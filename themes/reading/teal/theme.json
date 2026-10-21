@@ -1,11 +1,97 @@
 {
-  "appearance" : "system",
-  "base" : "teal",
-  "colors" : {
-
+  "appearance": "system",
+  "base": "teal",
+  "boxes": {
+    "callout": {
+      "barSides": [],
+      "bodyInset": 22,
+      "fill": {
+        "dark": "FFFFFF80",
+        "light": "FFFFFF80"
+      },
+      "iconInKindColor": true,
+      "title": {
+        "dark": "14575FFF",
+        "light": "14575FFF"
+      }
+    },
+    "code": {
+      "borderWidth": 0,
+      "cellGap": 2,
+      "cellRadius": 0,
+      "clearFrame": true,
+      "edgeGap": 0,
+      "ground": {
+        "dark": "FFFFFF80",
+        "light": "FFFFFF80"
+      },
+      "radius": 6,
+      "titleLikeTableHeader": true
+    },
+    "quote": {
+      "barSides": [],
+      "fill": {
+        "dark": "FFFFFF80",
+        "light": "FFFFFF80"
+      }
+    },
+    "table": {
+      "borderWidth": 0,
+      "cell": {
+        "dark": "FFFFFF80",
+        "light": "FFFFFF80"
+      },
+      "cellGap": 2,
+      "cellRadius": 0,
+      "headerText": {
+        "dark": "14575FFF",
+        "light": "14575FFF"
+      },
+      "outlineGap": 0,
+      "radius": 6,
+      "stripes": false
+    }
   },
-  "format" : 1,
-  "id" : "teal",
-  "name" : "Teal",
-  "version" : 1
+  "colors": {
+    "codeHeaderBackground": {
+      "dark": "FFFFFF80",
+      "light": "FFFFFF80"
+    },
+    "headings": {
+      "dark": "145760FF",
+      "light": "145760FF"
+    },
+    "tableHeaderBackground": {
+      "dark": "FFFFFF80",
+      "light": "FFFFFF80"
+    },
+    "text": {
+      "dark": "0D1A1CFF",
+      "light": "0D1A1CFF"
+    },
+    "title": {
+      "dark": "145760FF",
+      "light": "145760FF"
+    }
+  },
+  "format": 1,
+  "id": "teal",
+  "inlineChip": {
+    "cornerRadii": {
+      "bottomLeading": 4,
+      "bottomTrailing": 4,
+      "topLeading": 4,
+      "topTrailing": 4
+    },
+    "padLeading": 2,
+    "padTrailing": 2,
+    "padVertical": 1
+  },
+  "name": "Teal",
+  "sectionColors": false,
+  "taskColor": {
+    "dark": "0B3A40FF",
+    "light": "0B3A40FF"
+  },
+  "version": 3
 }

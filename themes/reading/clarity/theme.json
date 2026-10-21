@@ -1,11 +1,36 @@
 {
-  "appearance" : "system",
-  "base" : "clarity",
-  "colors" : {
-
+  "appearance": "system",
+  "base": "clarity",
+  "boxes": {
+    "callout": {
+      "barSides": []
+    },
+    "code": {
+      "borderWidth": 0,
+      "cellGap": 2,
+      "cellRadius": 0,
+      "clearFrame": true,
+      "edgeGap": 0,
+      "groundSection": 0.035,
+      "radius": 6,
+      "titleLikeTableHeader": true
+    },
+    "quote": {
+      "barSides": []
+    },
+    "table": {
+      "borderWidth": 0,
+      "cellGap": 2,
+      "cellRadius": 0,
+      "cellSection": 0.035,
+      "outlineGap": 0,
+      "radius": 6,
+      "stripes": false
+    }
   },
-  "format" : 1,
-  "id" : "clarity",
-  "name" : "Clarity",
-  "version" : 1
+  "colors": {},
+  "format": 1,
+  "id": "clarity",
+  "name": "Clarity",
+  "version": 3
 }

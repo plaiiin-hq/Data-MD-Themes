@@ -1,11 +1,107 @@
 {
-  "appearance" : "system",
-  "base" : "standard",
-  "colors" : {
-
+  "appearance": "system",
+  "base": "standard",
+  "boxes": {
+    "callout": {
+      "barSides": [],
+      "bodyInset": 22,
+      "fill": {
+        "dark": "1C1C1E12",
+        "light": "1C1C1E12"
+      },
+      "iconInKindColor": true,
+      "title": {
+        "dark": "000000CC",
+        "light": "000000CC"
+      }
+    },
+    "code": {
+      "borderWidth": 0,
+      "cellGap": 2,
+      "cellRadius": 0,
+      "clearFrame": true,
+      "edgeGap": 0,
+      "ground": {
+        "dark": "1C1C1E12",
+        "light": "1C1C1E12"
+      },
+      "radius": 6,
+      "titleLikeTableHeader": true
+    },
+    "quote": {
+      "barSides": [],
+      "fill": {
+        "dark": "1C1C1E12",
+        "light": "1C1C1E12"
+      }
+    },
+    "table": {
+      "borderWidth": 0,
+      "cell": {
+        "dark": "1C1C1E12",
+        "light": "1C1C1E12"
+      },
+      "cellGap": 2,
+      "cellRadius": 0,
+      "outlineGap": 0,
+      "radius": 6,
+      "stripes": false
+    }
   },
-  "format" : 1,
-  "id" : "standard",
-  "name" : "Standard",
-  "version" : 1
+  "colors": {
+    "codeHeaderBackground": {
+      "dark": "1C1C1E1A",
+      "light": "1C1C1E1A"
+    },
+    "tableHeaderBackground": {
+      "dark": "1C1C1E1A",
+      "light": "1C1C1E1A"
+    }
+  },
+  "format": 1,
+  "headingColors": [
+    {
+      "dark": "272727FF",
+      "light": "272727FF"
+    },
+    {
+      "dark": "007AFFFF",
+      "light": "007AFFFF"
+    },
+    {
+      "dark": "007AFFFF",
+      "light": "007AFFFF"
+    },
+    {
+      "dark": "007AFFFF",
+      "light": "007AFFFF"
+    },
+    {
+      "dark": "272727FF",
+      "light": "272727FF"
+    },
+    {
+      "dark": "272727FF",
+      "light": "272727FF"
+    }
+  ],
+  "id": "standard",
+  "inlineChip": {
+    "cornerRadii": {
+      "bottomLeading": 4,
+      "bottomTrailing": 4,
+      "topLeading": 4,
+      "topTrailing": 4
+    },
+    "padLeading": 2,
+    "padTrailing": 2,
+    "padVertical": 1
+  },
+  "name": "Standard",
+  "sectionColors": false,
+  "taskColor": {
+    "dark": "007AFFFF",
+    "light": "007AFFFF"
+  },
+  "version": 3
 }

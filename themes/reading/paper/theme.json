@@ -1,11 +1,70 @@
 {
-  "appearance" : "system",
-  "base" : "paper",
-  "colors" : {
-
+  "appearance": "system",
+  "base": "paper",
+  "boxes": {
+    "callout": {
+      "barSides": [],
+      "bodyInset": 22,
+      "fill": {
+        "dark": "3B2A1A12",
+        "light": "3B2A1A12"
+      },
+      "iconInKindColor": true,
+      "text": {
+        "dark": "000000FF",
+        "light": "000000FF"
+      },
+      "title": {
+        "dark": "000000FF",
+        "light": "000000FF"
+      }
+    },
+    "code": {
+      "borderWidth": 0,
+      "cellGap": 2,
+      "cellRadius": 0,
+      "clearFrame": true,
+      "edgeGap": 0,
+      "ground": {
+        "dark": "3B2A1A12",
+        "light": "3B2A1A12"
+      },
+      "radius": 6,
+      "titleLikeTableHeader": true
+    },
+    "quote": {
+      "barSides": [],
+      "fill": {
+        "dark": "3B2A1A12",
+        "light": "3B2A1A12"
+      }
+    },
+    "table": {
+      "borderWidth": 0,
+      "cell": {
+        "dark": "3B2A1A12",
+        "light": "3B2A1A12"
+      },
+      "cellGap": 2,
+      "cellRadius": 0,
+      "outlineGap": 0,
+      "radius": 6,
+      "stripes": false
+    }
   },
-  "format" : 1,
-  "id" : "paper",
-  "name" : "Paper",
-  "version" : 1
+  "colors": {
+    "codeHeaderBackground": {
+      "dark": "3B2A1A1A",
+      "light": "3B2A1A1A"
+    },
+    "tableHeaderBackground": {
+      "dark": "3B2A1A1A",
+      "light": "3B2A1A1A"
+    }
+  },
+  "format": 1,
+  "id": "paper",
+  "name": "Paper",
+  "sectionColors": false,
+  "version": 3
 }

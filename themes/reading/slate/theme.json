@@ -1,11 +1,77 @@
 {
-  "appearance" : "system",
-  "base" : "slate",
-  "colors" : {
-
+  "appearance": "system",
+  "base": "slate",
+  "boxes": {
+    "callout": {
+      "barSides": [],
+      "bodyInset": 22,
+      "fill": {
+        "dark": "1E293B12",
+        "light": "1E293B12"
+      },
+      "iconInKindColor": true,
+      "title": {
+        "dark": "000000CC",
+        "light": "000000CC"
+      }
+    },
+    "code": {
+      "borderWidth": 0,
+      "cellGap": 2,
+      "cellRadius": 0,
+      "clearFrame": true,
+      "edgeGap": 0,
+      "ground": {
+        "dark": "1E293B12",
+        "light": "1E293B12"
+      },
+      "radius": 6,
+      "titleLikeTableHeader": true
+    },
+    "quote": {
+      "barSides": [],
+      "fill": {
+        "dark": "1E293B12",
+        "light": "1E293B12"
+      }
+    },
+    "table": {
+      "borderWidth": 0,
+      "cell": {
+        "dark": "1E293B12",
+        "light": "1E293B12"
+      },
+      "cellGap": 2,
+      "cellRadius": 0,
+      "outlineGap": 0,
+      "radius": 6,
+      "stripes": false
+    }
   },
-  "format" : 1,
-  "id" : "slate",
-  "name" : "Slate",
-  "version" : 1
+  "colors": {
+    "codeHeaderBackground": {
+      "dark": "1E293B1A",
+      "light": "1E293B1A"
+    },
+    "tableHeaderBackground": {
+      "dark": "1E293B1A",
+      "light": "1E293B1A"
+    }
+  },
+  "format": 1,
+  "id": "slate",
+  "inlineChip": {
+    "cornerRadii": {
+      "bottomLeading": 4,
+      "bottomTrailing": 4,
+      "topLeading": 4,
+      "topTrailing": 4
+    },
+    "padLeading": 2,
+    "padTrailing": 2,
+    "padVertical": 1
+  },
+  "name": "Slate",
+  "sectionColors": false,
+  "version": 3
 }

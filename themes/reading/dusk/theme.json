@@ -1,11 +1,81 @@
 {
-  "appearance" : "system",
-  "base" : "dusk",
-  "colors" : {
-
+  "appearance": "system",
+  "base": "dusk",
+  "boxes": {
+    "callout": {
+      "barSides": [],
+      "bodyInset": 22,
+      "fill": {
+        "dark": "2A214012",
+        "light": "2A214012"
+      },
+      "iconInKindColor": true,
+      "title": {
+        "dark": "000000CC",
+        "light": "000000CC"
+      }
+    },
+    "code": {
+      "borderWidth": 0,
+      "cellGap": 2,
+      "cellRadius": 0,
+      "clearFrame": true,
+      "edgeGap": 0,
+      "ground": {
+        "dark": "2A214012",
+        "light": "2A214012"
+      },
+      "radius": 6,
+      "titleLikeTableHeader": true
+    },
+    "quote": {
+      "barSides": [],
+      "fill": {
+        "dark": "2A214012",
+        "light": "2A214012"
+      }
+    },
+    "table": {
+      "borderWidth": 0,
+      "cell": {
+        "dark": "2A214012",
+        "light": "2A214012"
+      },
+      "cellGap": 2,
+      "cellRadius": 0,
+      "outlineGap": 0,
+      "radius": 6,
+      "stripes": false
+    }
   },
-  "format" : 1,
-  "id" : "dusk",
-  "name" : "Dusk",
-  "version" : 1
+  "colors": {
+    "codeHeaderBackground": {
+      "dark": "2A21401A",
+      "light": "2A21401A"
+    },
+    "tableHeaderBackground": {
+      "dark": "2A21401A",
+      "light": "2A21401A"
+    }
+  },
+  "format": 1,
+  "id": "dusk",
+  "inlineChip": {
+    "cornerRadii": {
+      "bottomLeading": 4,
+      "bottomTrailing": 4,
+      "topLeading": 4,
+      "topTrailing": 4
+    },
+    "padLeading": 2,
+    "padTrailing": 2,
+    "padVertical": 1
+  },
+  "name": "Dusk",
+  "sectionColors": true,
+  "taskColor": {
+    "dark": "6444C2FF",
+    "light": "6444C2FF"
+  },
+  "version": 3
 }

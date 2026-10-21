@@ -1,11 +1,124 @@
 {
-  "appearance" : "system",
-  "base" : "mono",
-  "colors" : {
-
+  "appearance": "system",
+  "base": "mono",
+  "boxes": {
+    "callout": {
+      "barSides": [],
+      "bodyInset": 22,
+      "fill": {
+        "dark": "1C1C1E12",
+        "light": "1C1C1E12"
+      },
+      "iconColor": {
+        "dark": "3A3A3CFF",
+        "light": "3A3A3CFF"
+      },
+      "title": {
+        "dark": "000000CC",
+        "light": "000000CC"
+      }
+    },
+    "code": {
+      "borderWidth": 0,
+      "cellGap": 2,
+      "cellRadius": 0,
+      "clearFrame": true,
+      "edgeGap": 0,
+      "ground": {
+        "dark": "1C1C1E12",
+        "light": "1C1C1E12"
+      },
+      "radius": 6,
+      "titleLikeTableHeader": true
+    },
+    "quote": {
+      "barSides": [],
+      "fill": {
+        "dark": "1C1C1E12",
+        "light": "1C1C1E12"
+      }
+    },
+    "table": {
+      "borderWidth": 0,
+      "cell": {
+        "dark": "1C1C1E12",
+        "light": "1C1C1E12"
+      },
+      "cellGap": 2,
+      "cellRadius": 0,
+      "outlineGap": 0,
+      "radius": 6,
+      "stripes": false
+    }
   },
-  "format" : 1,
-  "id" : "mono",
-  "name" : "Mono",
-  "version" : 1
+  "colors": {
+    "attribute": {
+      "dark": "5A5A5CFF",
+      "light": "5A5A5CFF"
+    },
+    "codeHeaderBackground": {
+      "dark": "1C1C1E12",
+      "light": "1C1C1E12"
+    },
+    "comment": {
+      "dark": "8E8E93FF",
+      "light": "8E8E93FF"
+    },
+    "done": {
+      "dark": "1C1C1E99",
+      "light": "1C1C1E99"
+    },
+    "failed": {
+      "dark": "1C1C1EFF",
+      "light": "1C1C1EFF"
+    },
+    "keyword": {
+      "dark": "1C1C1EFF",
+      "light": "1C1C1EFF"
+    },
+    "link": {
+      "dark": "1C1C1EFF",
+      "light": "1C1C1EFF"
+    },
+    "number": {
+      "dark": "6A6A6CFF",
+      "light": "6A6A6CFF"
+    },
+    "open": {
+      "dark": "1C1C1ECC",
+      "light": "1C1C1ECC"
+    },
+    "string": {
+      "dark": "4A4A4CFF",
+      "light": "4A4A4CFF"
+    },
+    "tableHeaderBackground": {
+      "dark": "1C1C1E12",
+      "light": "1C1C1E12"
+    },
+    "type": {
+      "dark": "3A3A3CFF",
+      "light": "3A3A3CFF"
+    }
+  },
+  "format": 1,
+  "id": "mono",
+  "inlineChip": {
+    "cornerRadii": {
+      "bottomLeading": 4,
+      "bottomTrailing": 4,
+      "topLeading": 4,
+      "topTrailing": 4
+    },
+    "padLeading": 2,
+    "padTrailing": 2,
+    "padVertical": 1
+  },
+  "name": "Mono",
+  "sectionColors": false,
+  "taskColor": {
+    "dark": "000000FF",
+    "light": "000000FF"
+  },
+  "version": 3
 }
