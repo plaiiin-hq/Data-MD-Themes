@@ -5,73 +5,73 @@
   "themes": [
     {
       "id": "prism",
-      "version": 6
+      "version": 7
     },
     {
       "id": "daybreak",
-      "version": 6
+      "version": 7
     },
     {
       "id": "dune",
-      "version": 6
+      "version": 9
     },
     {
       "id": "botanic",
-      "version": 7
+      "version": 8
     },
     {
       "id": "sakura",
-      "version": 6
-    },
-    {
-      "id": "skyline",
-      "version": 6
-    },
-    {
-      "id": "riviera",
       "version": 7
     },
     {
+      "id": "skyline",
+      "version": 7
+    },
+    {
+      "id": "riviera",
+      "version": 9
+    },
+    {
       "id": "tower",
-      "version": 6
+      "version": 7
     },
     {
       "id": "pavilion",
-      "version": 6
+      "version": 7
     },
     {
       "id": "orbit",
-      "version": 6
+      "version": 7
     },
     {
       "id": "aurora",
-      "version": 6
+      "version": 7
     },
     {
       "id": "graphite",
-      "version": 6
+      "version": 7
     },
     {
       "id": "porcelain",
-      "version": 1
+      "version": 2
     },
     {
       "id": "alabaster",
-      "version": 1
+      "version": 2
     },
     {
       "id": "golden-meadow",
-      "version": 2
+      "version": 3
     }
   ],
   "reading": [
     {
       "id": "standard",
-      "version": 3
+      "version": 4
     },
     {
       "id": "paper",
-      "version": 3
+      "version": 4
     },
     {
       "id": "ink",
@@ -91,7 +91,7 @@
     },
     {
       "id": "sepia",
-      "version": 3
+      "version": 4
     },
     {
       "id": "meadow",
@@ -107,7 +107,7 @@
     },
     {
       "id": "clarity",
-      "version": 3
+      "version": 4
     },
     {
       "id": "indigo",

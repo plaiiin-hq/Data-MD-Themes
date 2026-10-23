@@ -2,7 +2,7 @@
   "format": 1,
   "id": "aurora",
   "name": "Aurora",
-  "version": 6,
+  "version": 7,
   "look": "spotlight",
   "appearance": "dark",
   "page": "#081324",
@@ -182,6 +182,17 @@
               "opacity": 0.3,
               "inside": true
             }
+          },
+          "inlineCode": {
+            "cornerRadii": {
+              "bottomLeading": 4,
+              "bottomTrailing": 4,
+              "topLeading": 4,
+              "topTrailing": 4
+            },
+            "padLeading": 2,
+            "padTrailing": 2,
+            "padVertical": 1
           }
         }
       },

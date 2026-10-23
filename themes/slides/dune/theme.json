@@ -2,7 +2,7 @@
   "format": 1,
   "id": "dune",
   "name": "Dune",
-  "version": 6,
+  "version": 9,
   "look": "bold",
   "appearance": "light",
   "page": "#FAF2E7",
@@ -136,10 +136,7 @@
               "color": "accent",
               "opacity": 0.13
             },
-            "zebra": {
-              "color": "accent",
-              "opacity": 0.045
-            },
+            "zebra": "hidden",
             "rowLines": "hidden",
             "border": {
               "color": "accent",
@@ -152,6 +149,34 @@
               "y": 12,
               "opacity": 0.1
             }
+          },
+          "code": {
+            "header": {
+              "color": "accent",
+              "opacity": 0.13
+            },
+            "border": {
+              "color": "accent",
+              "opacity": 0.16
+            },
+            "borderWidth": 2,
+            "radius": 20,
+            "shadow": {
+              "blur": 28,
+              "y": 12,
+              "opacity": 0.1
+            }
+          },
+          "inlineCode": {
+            "cornerRadii": {
+              "bottomLeading": 4,
+              "bottomTrailing": 4,
+              "topLeading": 4,
+              "topTrailing": 4
+            },
+            "padLeading": 2,
+            "padTrailing": 2,
+            "padVertical": 1
           }
         }
       },

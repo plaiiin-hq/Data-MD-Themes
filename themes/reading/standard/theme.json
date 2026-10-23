@@ -6,12 +6,12 @@
       "barSides": [],
       "bodyInset": 22,
       "fill": {
-        "dark": "1C1C1E12",
+        "dark": "FFFFFF14",
         "light": "1C1C1E12"
       },
       "iconInKindColor": true,
       "title": {
-        "dark": "000000CC",
+        "dark": "FFFFFFCC",
         "light": "000000CC"
       }
     },
@@ -22,7 +22,7 @@
       "clearFrame": true,
       "edgeGap": 0,
       "ground": {
-        "dark": "1C1C1E12",
+        "dark": "FFFFFF14",
         "light": "1C1C1E12"
       },
       "radius": 6,
@@ -31,14 +31,14 @@
     "quote": {
       "barSides": [],
       "fill": {
-        "dark": "1C1C1E12",
+        "dark": "FFFFFF14",
         "light": "1C1C1E12"
       }
     },
     "table": {
       "borderWidth": 0,
       "cell": {
-        "dark": "1C1C1E12",
+        "dark": "FFFFFF14",
         "light": "1C1C1E12"
       },
       "cellGap": 2,
@@ -50,18 +50,18 @@
   },
   "colors": {
     "codeHeaderBackground": {
-      "dark": "1C1C1E1A",
+      "dark": "FFFFFF1F",
       "light": "1C1C1E1A"
     },
     "tableHeaderBackground": {
-      "dark": "1C1C1E1A",
+      "dark": "FFFFFF1F",
       "light": "1C1C1E1A"
     }
   },
   "format": 1,
   "headingColors": [
     {
-      "dark": "272727FF",
+      "dark": "EDEDEDFF",
       "light": "272727FF"
     },
     {
@@ -77,11 +77,11 @@
       "light": "007AFFFF"
     },
     {
-      "dark": "272727FF",
+      "dark": "EDEDEDFF",
       "light": "272727FF"
     },
     {
-      "dark": "272727FF",
+      "dark": "EDEDEDFF",
       "light": "272727FF"
     }
   ],
@@ -103,5 +103,5 @@
     "dark": "007AFFFF",
     "light": "007AFFFF"
   },
-  "version": 3
+  "version": 4
 }

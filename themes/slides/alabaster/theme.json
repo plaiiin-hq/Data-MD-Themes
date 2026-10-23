@@ -2,7 +2,7 @@
   "format": 1,
   "id": "alabaster",
   "name": "Alabaster",
-  "version": 1,
+  "version": 2,
   "look": "editorial",
   "appearance": "light",
   "page": "#F1F1F3",
@@ -196,6 +196,17 @@
               "opacity": 0.14,
               "inside": true
             }
+          },
+          "inlineCode": {
+            "cornerRadii": {
+              "bottomLeading": 4,
+              "bottomTrailing": 4,
+              "topLeading": 4,
+              "topTrailing": 4
+            },
+            "padLeading": 2,
+            "padTrailing": 2,
+            "padVertical": 1
           }
         }
       },

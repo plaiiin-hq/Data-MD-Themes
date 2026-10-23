@@ -86,5 +86,16 @@
   "id": "sepia",
   "name": "Sepia",
   "sectionColors": false,
-  "version": 3
+  "version": 4,
+  "inlineChip": {
+    "cornerRadii": {
+      "bottomLeading": 4,
+      "bottomTrailing": 4,
+      "topLeading": 4,
+      "topTrailing": 4
+    },
+    "padLeading": 2,
+    "padTrailing": 2,
+    "padVertical": 1
+  }
 }

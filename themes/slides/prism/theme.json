@@ -2,7 +2,7 @@
   "format": 1,
   "id": "prism",
   "name": "Prism",
-  "version": 6,
+  "version": 7,
   "look": "bold",
   "appearance": "dark",
   "page": "#0B1A4C",
@@ -149,6 +149,17 @@
               "opacity": 0.55
             },
             "headerText": "#FFFFFF"
+          },
+          "inlineCode": {
+            "cornerRadii": {
+              "bottomLeading": 4,
+              "bottomTrailing": 4,
+              "topLeading": 4,
+              "topTrailing": 4
+            },
+            "padLeading": 2,
+            "padTrailing": 2,
+            "padVertical": 1
           }
         }
       },

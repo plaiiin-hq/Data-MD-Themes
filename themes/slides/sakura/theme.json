@@ -2,7 +2,7 @@
   "format": 1,
   "id": "sakura",
   "name": "Sakura",
-  "version": 6,
+  "version": 7,
   "look": "soft",
   "appearance": "light",
   "page": "#FDF7F7",
@@ -211,6 +211,17 @@
             },
             "shadowRadius": 24,
             "shadowOpacity": 0.16
+          },
+          "inlineCode": {
+            "cornerRadii": {
+              "bottomLeading": 4,
+              "bottomTrailing": 4,
+              "topLeading": 4,
+              "topTrailing": 4
+            },
+            "padLeading": 2,
+            "padTrailing": 2,
+            "padVertical": 1
           }
         }
       },

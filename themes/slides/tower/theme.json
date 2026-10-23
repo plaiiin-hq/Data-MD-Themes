@@ -2,7 +2,7 @@
   "format": 1,
   "id": "tower",
   "name": "Tower",
-  "version": 6,
+  "version": 7,
   "look": "editorial",
   "appearance": "light",
   "page": "#F5F8FC",
@@ -140,6 +140,17 @@
             },
             "border": "hidden",
             "borderWidth": 0
+          },
+          "inlineCode": {
+            "cornerRadii": {
+              "bottomLeading": 4,
+              "bottomTrailing": 4,
+              "topLeading": 4,
+              "topTrailing": 4
+            },
+            "padLeading": 2,
+            "padTrailing": 2,
+            "padVertical": 1
           }
         }
       },
