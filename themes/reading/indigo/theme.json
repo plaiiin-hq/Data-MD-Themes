@@ -6,12 +6,12 @@
       "barSides": [],
       "bodyInset": 22,
       "fill": {
-        "dark": "232A5C12",
+        "dark": "B9C6FF14",
         "light": "232A5C12"
       },
       "iconInKindColor": true,
       "title": {
-        "dark": "000000CC",
+        "dark": "FFFFFFCC",
         "light": "000000CC"
       }
     },
@@ -22,7 +22,7 @@
       "clearFrame": true,
       "edgeGap": 0,
       "ground": {
-        "dark": "232A5C12",
+        "dark": "B9C6FF14",
         "light": "232A5C12"
       },
       "radius": 6,
@@ -31,14 +31,14 @@
     "quote": {
       "barSides": [],
       "fill": {
-        "dark": "232A5C12",
+        "dark": "B9C6FF14",
         "light": "232A5C12"
       }
     },
     "table": {
       "borderWidth": 0,
       "cell": {
-        "dark": "232A5C12",
+        "dark": "B9C6FF14",
         "light": "232A5C12"
       },
       "cellGap": 2,
@@ -50,11 +50,11 @@
   },
   "colors": {
     "codeHeaderBackground": {
-      "dark": "232A5C1A",
+      "dark": "B9C6FF1F",
       "light": "232A5C1A"
     },
     "tableHeaderBackground": {
-      "dark": "232A5C1A",
+      "dark": "B9C6FF1F",
       "light": "232A5C1A"
     }
   },
@@ -74,8 +74,8 @@
   "name": "Indigo",
   "sectionColors": false,
   "taskColor": {
-    "dark": "1B2670FF",
+    "dark": "E4EAFFFF",
     "light": "1B2670FF"
   },
-  "version": 3
+  "version": 4
 }

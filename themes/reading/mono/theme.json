@@ -6,15 +6,15 @@
       "barSides": [],
       "bodyInset": 22,
       "fill": {
-        "dark": "1C1C1E12",
+        "dark": "FFFFFF14",
         "light": "1C1C1E12"
       },
       "iconColor": {
-        "dark": "3A3A3CFF",
+        "dark": "C5C5C3FF",
         "light": "3A3A3CFF"
       },
       "title": {
-        "dark": "000000CC",
+        "dark": "FFFFFFCC",
         "light": "000000CC"
       }
     },
@@ -25,7 +25,7 @@
       "clearFrame": true,
       "edgeGap": 0,
       "ground": {
-        "dark": "1C1C1E12",
+        "dark": "FFFFFF14",
         "light": "1C1C1E12"
       },
       "radius": 6,
@@ -34,14 +34,14 @@
     "quote": {
       "barSides": [],
       "fill": {
-        "dark": "1C1C1E12",
+        "dark": "FFFFFF14",
         "light": "1C1C1E12"
       }
     },
     "table": {
       "borderWidth": 0,
       "cell": {
-        "dark": "1C1C1E12",
+        "dark": "FFFFFF14",
         "light": "1C1C1E12"
       },
       "cellGap": 2,
@@ -53,11 +53,11 @@
   },
   "colors": {
     "attribute": {
-      "dark": "5A5A5CFF",
+      "dark": "A5A5A3FF",
       "light": "5A5A5CFF"
     },
     "codeHeaderBackground": {
-      "dark": "1C1C1E12",
+      "dark": "FFFFFF14",
       "light": "1C1C1E12"
     },
     "comment": {
@@ -65,39 +65,39 @@
       "light": "8E8E93FF"
     },
     "done": {
-      "dark": "1C1C1E99",
+      "dark": "E3E3E199",
       "light": "1C1C1E99"
     },
     "failed": {
-      "dark": "1C1C1EFF",
+      "dark": "E3E3E1FF",
       "light": "1C1C1EFF"
     },
     "keyword": {
-      "dark": "1C1C1EFF",
+      "dark": "E3E3E1FF",
       "light": "1C1C1EFF"
     },
     "link": {
-      "dark": "1C1C1EFF",
+      "dark": "E3E3E1FF",
       "light": "1C1C1EFF"
     },
     "number": {
-      "dark": "6A6A6CFF",
+      "dark": "959593FF",
       "light": "6A6A6CFF"
     },
     "open": {
-      "dark": "1C1C1ECC",
+      "dark": "E3E3E1CC",
       "light": "1C1C1ECC"
     },
     "string": {
-      "dark": "4A4A4CFF",
+      "dark": "B5B5B3FF",
       "light": "4A4A4CFF"
     },
     "tableHeaderBackground": {
-      "dark": "1C1C1E12",
+      "dark": "FFFFFF14",
       "light": "1C1C1E12"
     },
     "type": {
-      "dark": "3A3A3CFF",
+      "dark": "C5C5C3FF",
       "light": "3A3A3CFF"
     }
   },
@@ -117,8 +117,8 @@
   "name": "Mono",
   "sectionColors": false,
   "taskColor": {
-    "dark": "000000FF",
+    "dark": "FFFFFFFF",
     "light": "000000FF"
   },
-  "version": 3
+  "version": 4
 }
