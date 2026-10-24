@@ -6,12 +6,12 @@
       "barSides": [],
       "bodyInset": 22,
       "fill": {
-        "dark": "FFFFFF80",
+        "dark": "FFFFFF14",
         "light": "FFFFFF80"
       },
       "iconInKindColor": true,
       "title": {
-        "dark": "38232BFF",
+        "dark": "EDD8DEFF",
         "light": "38232BFF"
       }
     },
@@ -22,7 +22,7 @@
       "clearFrame": true,
       "edgeGap": 0,
       "ground": {
-        "dark": "FFFFFF80",
+        "dark": "FFFFFF14",
         "light": "FFFFFF80"
       },
       "radius": 6,
@@ -31,20 +31,20 @@
     "quote": {
       "barSides": [],
       "fill": {
-        "dark": "FFFFFF80",
+        "dark": "FFFFFF14",
         "light": "FFFFFF80"
       }
     },
     "table": {
       "borderWidth": 0,
       "cell": {
-        "dark": "FFFFFF80",
+        "dark": "FFFFFF14",
         "light": "FFFFFF80"
       },
       "cellGap": 2,
       "cellRadius": 0,
       "headerText": {
-        "dark": "38232BFF",
+        "dark": "EDD8DEFF",
         "light": "38232BFF"
       },
       "outlineGap": 0,
@@ -54,23 +54,23 @@
   },
   "colors": {
     "codeHeaderBackground": {
-      "dark": "FFFFFF80",
+      "dark": "FFFFFF14",
       "light": "FFFFFF80"
     },
     "headings": {
-      "dark": "38232BFF",
+      "dark": "EDD8DEFF",
       "light": "38232BFF"
     },
     "tableHeaderBackground": {
-      "dark": "FFFFFF80",
+      "dark": "FFFFFF14",
       "light": "FFFFFF80"
     },
     "text": {
-      "dark": "1F0F14FF",
+      "dark": "FCF0F3FF",
       "light": "1F0F14FF"
     },
     "title": {
-      "dark": "38232BFF",
+      "dark": "EDD8DEFF",
       "light": "38232BFF"
     }
   },
@@ -90,8 +90,8 @@
   "name": "Rose",
   "sectionColors": false,
   "taskColor": {
-    "dark": "261018FF",
+    "dark": "FCF0F3FF",
     "light": "261018FF"
   },
-  "version": 3
+  "version": 4
 }

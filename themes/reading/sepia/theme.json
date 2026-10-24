@@ -6,16 +6,16 @@
       "barSides": [],
       "bodyInset": 22,
       "fill": {
-        "dark": "3B2A1A12",
+        "dark": "E6D6B814",
         "light": "3B2A1A12"
       },
       "iconInKindColor": true,
       "text": {
-        "dark": "000000B3",
+        "dark": "FFFFFFB3",
         "light": "000000B3"
       },
       "title": {
-        "dark": "000000B3",
+        "dark": "FFFFFFB3",
         "light": "000000B3"
       }
     },
@@ -26,7 +26,7 @@
       "clearFrame": true,
       "edgeGap": 0,
       "ground": {
-        "dark": "3B2A1A12",
+        "dark": "E6D6B814",
         "light": "3B2A1A12"
       },
       "radius": 6,
@@ -35,22 +35,22 @@
     "quote": {
       "barSides": [],
       "fill": {
-        "dark": "3B2A1A12",
+        "dark": "E6D6B814",
         "light": "3B2A1A12"
       },
       "text": {
-        "dark": "000000B3",
+        "dark": "FFFFFFB3",
         "light": "000000B3"
       },
       "title": {
-        "dark": "000000B3",
+        "dark": "FFFFFFB3",
         "light": "000000B3"
       }
     },
     "table": {
       "borderWidth": 0,
       "cell": {
-        "dark": "3B2A1A12",
+        "dark": "E6D6B814",
         "light": "3B2A1A12"
       },
       "cellGap": 2,
@@ -62,23 +62,23 @@
   },
   "colors": {
     "codeHeaderBackground": {
-      "dark": "3B2A1A1A",
+      "dark": "E6D6B81F",
       "light": "3B2A1A1A"
     },
     "headings": {
-      "dark": "000000B3",
+      "dark": "FFFFFFB3",
       "light": "000000B3"
     },
     "tableHeaderBackground": {
-      "dark": "3B2A1A1A",
+      "dark": "E6D6B81F",
       "light": "3B2A1A1A"
     },
     "text": {
-      "dark": "000000B3",
+      "dark": "FFFFFFB3",
       "light": "000000B3"
     },
     "title": {
-      "dark": "000000B3",
+      "dark": "FFFFFFB3",
       "light": "000000B3"
     }
   },
@@ -86,7 +86,7 @@
   "id": "sepia",
   "name": "Sepia",
   "sectionColors": false,
-  "version": 4,
+  "version": 5,
   "inlineChip": {
     "cornerRadii": {
       "bottomLeading": 4,

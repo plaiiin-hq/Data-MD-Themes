@@ -6,12 +6,12 @@
       "barSides": [],
       "bodyInset": 22,
       "fill": {
-        "dark": "2A214012",
+        "dark": "DDD6F214",
         "light": "2A214012"
       },
       "iconInKindColor": true,
       "title": {
-        "dark": "000000CC",
+        "dark": "FFFFFFCC",
         "light": "000000CC"
       }
     },
@@ -22,7 +22,7 @@
       "clearFrame": true,
       "edgeGap": 0,
       "ground": {
-        "dark": "2A214012",
+        "dark": "DDD6F214",
         "light": "2A214012"
       },
       "radius": 6,
@@ -31,14 +31,14 @@
     "quote": {
       "barSides": [],
       "fill": {
-        "dark": "2A214012",
+        "dark": "DDD6F214",
         "light": "2A214012"
       }
     },
     "table": {
       "borderWidth": 0,
       "cell": {
-        "dark": "2A214012",
+        "dark": "DDD6F214",
         "light": "2A214012"
       },
       "cellGap": 2,
@@ -50,11 +50,11 @@
   },
   "colors": {
     "codeHeaderBackground": {
-      "dark": "2A21401A",
+      "dark": "DDD6F21F",
       "light": "2A21401A"
     },
     "tableHeaderBackground": {
-      "dark": "2A21401A",
+      "dark": "DDD6F21F",
       "light": "2A21401A"
     }
   },
@@ -74,8 +74,8 @@
   "name": "Dusk",
   "sectionColors": true,
   "taskColor": {
-    "dark": "6444C2FF",
+    "dark": "B0A0FFFF",
     "light": "6444C2FF"
   },
-  "version": 3
+  "version": 4
 }

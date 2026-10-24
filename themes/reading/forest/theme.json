@@ -6,12 +6,12 @@
       "barSides": [],
       "bodyInset": 22,
       "fill": {
-        "dark": "1F3A2B12",
+        "dark": "B4E3BF14",
         "light": "1F3A2B12"
       },
       "iconInKindColor": true,
       "title": {
-        "dark": "000000CC",
+        "dark": "FFFFFFCC",
         "light": "000000CC"
       }
     },
@@ -22,7 +22,7 @@
       "clearFrame": true,
       "edgeGap": 0,
       "ground": {
-        "dark": "1F3A2B12",
+        "dark": "B4E3BF14",
         "light": "1F3A2B12"
       },
       "radius": 6,
@@ -31,14 +31,14 @@
     "quote": {
       "barSides": [],
       "fill": {
-        "dark": "1F3A2B12",
+        "dark": "B4E3BF14",
         "light": "1F3A2B12"
       }
     },
     "table": {
       "borderWidth": 0,
       "cell": {
-        "dark": "1F3A2B12",
+        "dark": "B4E3BF14",
         "light": "1F3A2B12"
       },
       "cellGap": 2,
@@ -50,11 +50,11 @@
   },
   "colors": {
     "codeHeaderBackground": {
-      "dark": "1F3A2B1A",
+      "dark": "B4E3BF1F",
       "light": "1F3A2B1A"
     },
     "tableHeaderBackground": {
-      "dark": "1F3A2B1A",
+      "dark": "B4E3BF1F",
       "light": "1F3A2B1A"
     }
   },
@@ -74,8 +74,8 @@
   "name": "Forest",
   "sectionColors": false,
   "taskColor": {
-    "dark": "123D20FF",
+    "dark": "E1F6E6FF",
     "light": "123D20FF"
   },
-  "version": 3
+  "version": 4
 }

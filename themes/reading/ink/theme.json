@@ -6,31 +6,31 @@
       "barSides": [],
       "bodyInset": 22,
       "fill": {
-        "dark": "1C1C1E12",
+        "dark": "FFFFFF14",
         "light": "1C1C1E12"
       },
       "iconInKindColor": true,
       "title": {
-        "dark": "0B5C75FF",
+        "dark": "9AD7EAFF",
         "light": "0B5C75FF"
       }
     },
     "callouts": {
       "important": {
         "iconColor": {
-          "dark": "0B5C75FF",
+          "dark": "9AD7EAFF",
           "light": "0B5C75FF"
         }
       },
       "note": {
         "iconColor": {
-          "dark": "0B5C75FF",
+          "dark": "9AD7EAFF",
           "light": "0B5C75FF"
         }
       },
       "tip": {
         "iconColor": {
-          "dark": "0B5C75FF",
+          "dark": "9AD7EAFF",
           "light": "0B5C75FF"
         }
       }
@@ -41,12 +41,12 @@
       "cellRadius": 0,
       "clearFrame": true,
       "copyText": {
-        "dark": "0B5C75FF",
+        "dark": "9AD7EAFF",
         "light": "0B5C75FF"
       },
       "edgeGap": 0,
       "ground": {
-        "dark": "1C1C1E12",
+        "dark": "FFFFFF14",
         "light": "1C1C1E12"
       },
       "radius": 6,
@@ -55,20 +55,20 @@
     "quote": {
       "barSides": [],
       "fill": {
-        "dark": "1C1C1E12",
+        "dark": "FFFFFF14",
         "light": "1C1C1E12"
       }
     },
     "table": {
       "borderWidth": 0,
       "cell": {
-        "dark": "1C1C1E12",
+        "dark": "FFFFFF14",
         "light": "1C1C1E12"
       },
       "cellGap": 2,
       "cellRadius": 0,
       "headerText": {
-        "dark": "0B5C75FF",
+        "dark": "9AD7EAFF",
         "light": "0B5C75FF"
       },
       "outlineGap": 0,
@@ -78,11 +78,11 @@
   },
   "colors": {
     "codeHeaderBackground": {
-      "dark": "1C1C1E1A",
+      "dark": "FFFFFF1F",
       "light": "1C1C1E1A"
     },
     "done": {
-      "dark": "1C1C1E99",
+      "dark": "FFFFFF99",
       "light": "1C1C1E99"
     },
     "failed": {
@@ -90,11 +90,11 @@
       "light": "CB5C5CFF"
     },
     "headings": {
-      "dark": "0B5C75FF",
+      "dark": "9AD7EAFF",
       "light": "0B5C75FF"
     },
     "listMarker": {
-      "dark": "0B5C75FF",
+      "dark": "9AD7EAFF",
       "light": "0B5C75FF"
     },
     "open": {
@@ -102,11 +102,11 @@
       "light": "D08B40FF"
     },
     "tableHeaderBackground": {
-      "dark": "1C1C1E1A",
+      "dark": "FFFFFF1F",
       "light": "1C1C1E1A"
     },
     "title": {
-      "dark": "0B5C75FF",
+      "dark": "9AD7EAFF",
       "light": "0B5C75FF"
     }
   },
@@ -126,8 +126,8 @@
   "name": "Ink",
   "sectionColors": false,
   "taskColor": {
-    "dark": "0B5C75FF",
+    "dark": "9AD7EAFF",
     "light": "0B5C75FF"
   },
-  "version": 3
+  "version": 4
 }

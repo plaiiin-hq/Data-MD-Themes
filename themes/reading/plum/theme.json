@@ -6,12 +6,12 @@
       "barSides": [],
       "bodyInset": 22,
       "fill": {
-        "dark": "3A1C3F12",
+        "dark": "EDB8E614",
         "light": "3A1C3F12"
       },
       "iconInKindColor": true,
       "title": {
-        "dark": "000000CC",
+        "dark": "FFFFFFCC",
         "light": "000000CC"
       }
     },
@@ -22,7 +22,7 @@
       "clearFrame": true,
       "edgeGap": 0,
       "ground": {
-        "dark": "3A1C3F12",
+        "dark": "EDB8E614",
         "light": "3A1C3F12"
       },
       "radius": 6,
@@ -31,14 +31,14 @@
     "quote": {
       "barSides": [],
       "fill": {
-        "dark": "3A1C3F12",
+        "dark": "EDB8E614",
         "light": "3A1C3F12"
       }
     },
     "table": {
       "borderWidth": 0,
       "cell": {
-        "dark": "3A1C3F12",
+        "dark": "EDB8E614",
         "light": "3A1C3F12"
       },
       "cellGap": 2,
@@ -50,11 +50,11 @@
   },
   "colors": {
     "codeHeaderBackground": {
-      "dark": "3A1C3F1A",
+      "dark": "EDB8E61F",
       "light": "3A1C3F1A"
     },
     "tableHeaderBackground": {
-      "dark": "3A1C3F1A",
+      "dark": "EDB8E61F",
       "light": "3A1C3F1A"
     }
   },
@@ -74,8 +74,8 @@
   "name": "Plum",
   "sectionColors": true,
   "taskColor": {
-    "dark": "A8328AFF",
+    "dark": "F08ACBFF",
     "light": "A8328AFF"
   },
-  "version": 3
+  "version": 4
 }

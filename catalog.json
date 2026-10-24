@@ -71,39 +71,39 @@
     },
     {
       "id": "paper",
-      "version": 4
+      "version": 5
     },
     {
       "id": "ink",
-      "version": 3
-    },
-    {
-      "id": "plaiiin",
-      "version": 3
-    },
-    {
-      "id": "slate",
-      "version": 3
-    },
-    {
-      "id": "dusk",
-      "version": 3
-    },
-    {
-      "id": "sepia",
       "version": 4
     },
     {
+      "id": "plaiiin",
+      "version": 4
+    },
+    {
+      "id": "slate",
+      "version": 4
+    },
+    {
+      "id": "dusk",
+      "version": 4
+    },
+    {
+      "id": "sepia",
+      "version": 5
+    },
+    {
       "id": "meadow",
-      "version": 3
+      "version": 4
     },
     {
       "id": "rose",
-      "version": 3
+      "version": 4
     },
     {
       "id": "mono",
-      "version": 3
+      "version": 4
     },
     {
       "id": "clarity",
@@ -111,23 +111,23 @@
     },
     {
       "id": "indigo",
-      "version": 3
+      "version": 4
     },
     {
       "id": "terracotta",
-      "version": 3
+      "version": 4
     },
     {
       "id": "forest",
-      "version": 3
+      "version": 4
     },
     {
       "id": "plum",
-      "version": 3
+      "version": 4
     },
     {
       "id": "teal",
-      "version": 3
+      "version": 4
     }
   ]
 }

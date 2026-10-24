@@ -6,12 +6,12 @@
       "barSides": [],
       "bodyInset": 22,
       "fill": {
-        "dark": "2A402012",
+        "dark": "D2E2CF14",
         "light": "2A402012"
       },
       "iconInKindColor": true,
       "title": {
-        "dark": "000000CC",
+        "dark": "FFFFFFCC",
         "light": "000000CC"
       }
     },
@@ -22,7 +22,7 @@
       "clearFrame": true,
       "edgeGap": 0,
       "ground": {
-        "dark": "2A402012",
+        "dark": "D2E2CF14",
         "light": "2A402012"
       },
       "radius": 6,
@@ -31,14 +31,14 @@
     "quote": {
       "barSides": [],
       "fill": {
-        "dark": "2A402012",
+        "dark": "D2E2CF14",
         "light": "2A402012"
       }
     },
     "table": {
       "borderWidth": 0,
       "cell": {
-        "dark": "2A402012",
+        "dark": "D2E2CF14",
         "light": "2A402012"
       },
       "cellGap": 2,
@@ -50,11 +50,11 @@
   },
   "colors": {
     "codeHeaderBackground": {
-      "dark": "2A40201A",
+      "dark": "D2E2CF1F",
       "light": "2A40201A"
     },
     "tableHeaderBackground": {
-      "dark": "2A40201A",
+      "dark": "D2E2CF1F",
       "light": "2A40201A"
     }
   },
@@ -74,8 +74,8 @@
   "name": "Meadow",
   "sectionColors": false,
   "taskColor": {
-    "dark": "122010FF",
+    "dark": "EEF8ECFF",
     "light": "122010FF"
   },
-  "version": 3
+  "version": 4
 }
