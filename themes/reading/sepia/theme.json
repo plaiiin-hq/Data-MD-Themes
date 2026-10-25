@@ -19,6 +19,38 @@
         "light": "000000B3"
       }
     },
+    "callouts": {
+      "caution": {
+        "iconColor": {
+          "dark": "FF4245FF",
+          "light": "EB0005FF"
+        }
+      },
+      "important": {
+        "iconColor": {
+          "dark": "DB34F2FF",
+          "light": "C320D9FF"
+        }
+      },
+      "note": {
+        "iconColor": {
+          "dark": "0091FFFF",
+          "light": "0074DAFF"
+        }
+      },
+      "tip": {
+        "iconColor": {
+          "dark": "30D158FF",
+          "light": "23853CFF"
+        }
+      },
+      "warning": {
+        "iconColor": {
+          "dark": "FF9230FF",
+          "light": "BC5800FF"
+        }
+      }
+    },
     "code": {
       "borderWidth": 0,
       "cellGap": 2,
@@ -61,6 +93,10 @@
     }
   },
   "colors": {
+    "attribute": {
+      "dark": "B78A66FF",
+      "light": "956C4DFF"
+    },
     "codeHeaderBackground": {
       "dark": "E6D6B81F",
       "light": "3B2A1A1A"
@@ -68,6 +104,18 @@
     "headings": {
       "dark": "FFFFFFB3",
       "light": "000000B3"
+    },
+    "keyword": {
+      "dark": "FF375FFF",
+      "light": "EA002DFF"
+    },
+    "number": {
+      "dark": "0091FFFF",
+      "light": "0074DAFF"
+    },
+    "string": {
+      "dark": "FF4245FF",
+      "light": "EB0005FF"
     },
     "tableHeaderBackground": {
       "dark": "E6D6B81F",
@@ -80,13 +128,17 @@
     "title": {
       "dark": "FFFFFFB3",
       "light": "000000B3"
+    },
+    "type": {
+      "dark": "DB34F2FF",
+      "light": "C320D9FF"
     }
   },
   "format": 1,
   "id": "sepia",
   "name": "Sepia",
   "sectionColors": false,
-  "version": 5,
+  "version": 6,
   "inlineChip": {
     "cornerRadii": {
       "bottomLeading": 4,

@@ -15,6 +15,32 @@
         "light": "000000CC"
       }
     },
+    "callouts": {
+      "caution": {
+        "iconColor": {
+          "dark": "FF4245FF",
+          "light": "F90005FF"
+        }
+      },
+      "note": {
+        "iconColor": {
+          "dark": "0091FFFF",
+          "light": "007CE8FF"
+        }
+      },
+      "tip": {
+        "iconColor": {
+          "dark": "30D158FF",
+          "light": "258E40FF"
+        }
+      },
+      "warning": {
+        "iconColor": {
+          "dark": "FF9230FF",
+          "light": "C75E00FF"
+        }
+      }
+    },
     "code": {
       "borderWidth": 0,
       "cellGap": 2,
@@ -49,9 +75,25 @@
     }
   },
   "colors": {
+    "attribute": {
+      "dark": "B78A66FF",
+      "light": "9F7252FF"
+    },
     "codeHeaderBackground": {
       "dark": "D2E2CF1F",
       "light": "2A40201A"
+    },
+    "keyword": {
+      "dark": "FF375FFF",
+      "light": "F8002FFF"
+    },
+    "number": {
+      "dark": "0091FFFF",
+      "light": "007CE8FF"
+    },
+    "string": {
+      "dark": "FF4245FF",
+      "light": "F90005FF"
     },
     "tableHeaderBackground": {
       "dark": "D2E2CF1F",
@@ -77,5 +119,5 @@
     "dark": "EEF8ECFF",
     "light": "122010FF"
   },
-  "version": 4
+  "version": 5
 }

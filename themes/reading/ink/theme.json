@@ -33,6 +33,12 @@
           "dark": "9AD7EAFF",
           "light": "0B5C75FF"
         }
+      },
+      "warning": {
+        "iconColor": {
+          "dark": "FF9230FF",
+          "light": "D96600FF"
+        }
       }
     },
     "code": {
@@ -77,6 +83,10 @@
     }
   },
   "colors": {
+    "attribute": {
+      "dark": "B78A66FF",
+      "light": "AC7E5DFF"
+    },
     "codeHeaderBackground": {
       "dark": "FFFFFF1F",
       "light": "1C1C1E1A"
@@ -96,6 +106,10 @@
     "listMarker": {
       "dark": "9AD7EAFF",
       "light": "0B5C75FF"
+    },
+    "number": {
+      "dark": "0091FFFF",
+      "light": "0087FEFF"
     },
     "open": {
       "dark": "D08B40FF",
@@ -129,5 +143,5 @@
     "dark": "9AD7EAFF",
     "light": "0B5C75FF"
   },
-  "version": 4
+  "version": 5
 }

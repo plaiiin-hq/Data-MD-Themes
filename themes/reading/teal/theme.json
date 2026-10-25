@@ -15,6 +15,20 @@
         "light": "14575FFF"
       }
     },
+    "callouts": {
+      "tip": {
+        "iconColor": {
+          "dark": "30D158FF",
+          "light": "2BA54AFF"
+        }
+      },
+      "warning": {
+        "iconColor": {
+          "dark": "FF9230FF",
+          "light": "E76D00FF"
+        }
+      }
+    },
     "code": {
       "borderWidth": 0,
       "cellGap": 2,
@@ -93,5 +107,5 @@
     "dark": "D8F6F9FF",
     "light": "0B3A40FF"
   },
-  "version": 4
+  "version": 5
 }

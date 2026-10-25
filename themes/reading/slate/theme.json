@@ -15,6 +15,38 @@
         "light": "000000CC"
       }
     },
+    "callouts": {
+      "caution": {
+        "iconColor": {
+          "dark": "FF4245FF",
+          "light": "F70005FF"
+        }
+      },
+      "important": {
+        "iconColor": {
+          "dark": "DB34F2FF",
+          "light": "CA2EE0FF"
+        }
+      },
+      "note": {
+        "iconColor": {
+          "dark": "0091FFFF",
+          "light": "007BE7FF"
+        }
+      },
+      "tip": {
+        "iconColor": {
+          "dark": "30D158FF",
+          "light": "258D3FFF"
+        }
+      },
+      "warning": {
+        "iconColor": {
+          "dark": "FF9230FF",
+          "light": "C65D00FF"
+        }
+      }
+    },
     "code": {
       "borderWidth": 0,
       "cellGap": 2,
@@ -49,13 +81,33 @@
     }
   },
   "colors": {
+    "attribute": {
+      "dark": "B78A66FF",
+      "light": "9F7252FF"
+    },
     "codeHeaderBackground": {
       "dark": "D6DFEA1F",
       "light": "1E293B1A"
     },
+    "keyword": {
+      "dark": "FF375FFF",
+      "light": "F6002FFF"
+    },
+    "number": {
+      "dark": "0091FFFF",
+      "light": "007BE7FF"
+    },
+    "string": {
+      "dark": "FF4245FF",
+      "light": "F70005FF"
+    },
     "tableHeaderBackground": {
       "dark": "D6DFEA1F",
       "light": "1E293B1A"
+    },
+    "type": {
+      "dark": "DB34F2FF",
+      "light": "CA2EE0FF"
     }
   },
   "format": 1,
@@ -73,5 +125,5 @@
   },
   "name": "Slate",
   "sectionColors": false,
-  "version": 4
+  "version": 5
 }
