@@ -62,7 +62,7 @@
     },
     "comment": {
       "dark": "8E8E93FF",
-      "light": "8E8E93FF"
+      "light": "7D7D83FF"
     },
     "done": {
       "dark": "E3E3E199",
@@ -120,5 +120,5 @@
     "dark": "FFFFFFFF",
     "light": "000000FF"
   },
-  "version": 4
+  "version": 5
 }

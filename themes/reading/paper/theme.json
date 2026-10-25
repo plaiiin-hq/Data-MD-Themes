@@ -19,6 +19,32 @@
         "light": "000000FF"
       }
     },
+    "callouts": {
+      "caution": {
+        "iconColor": {
+          "dark": "FF4245FF",
+          "light": "FF161AFF"
+        }
+      },
+      "note": {
+        "iconColor": {
+          "dark": "0091FFFF",
+          "light": "0080F0FF"
+        }
+      },
+      "tip": {
+        "iconColor": {
+          "dark": "30D158FF",
+          "light": "279342FF"
+        }
+      },
+      "warning": {
+        "iconColor": {
+          "dark": "FF9230FF",
+          "light": "CF6100FF"
+        }
+      }
+    },
     "code": {
       "borderWidth": 0,
       "cellGap": 2,
@@ -53,9 +79,25 @@
     }
   },
   "colors": {
+    "attribute": {
+      "dark": "B78A66FF",
+      "light": "A57755FF"
+    },
     "codeHeaderBackground": {
       "dark": "E6DCCB1F",
       "light": "3B2A1A1A"
+    },
+    "keyword": {
+      "dark": "FF375FFF",
+      "light": "FF0E3CFF"
+    },
+    "number": {
+      "dark": "0091FFFF",
+      "light": "0080F0FF"
+    },
+    "string": {
+      "dark": "FF4245FF",
+      "light": "FF161AFF"
     },
     "tableHeaderBackground": {
       "dark": "E6DCCB1F",
@@ -66,7 +108,7 @@
   "id": "paper",
   "name": "Paper",
   "sectionColors": false,
-  "version": 5,
+  "version": 6,
   "inlineChip": {
     "cornerRadii": {
       "bottomLeading": 4,
