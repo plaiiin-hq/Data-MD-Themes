@@ -2,7 +2,7 @@
   "format": 1,
   "id": "botanic",
   "name": "Botanic",
-  "version": 8,
+  "version": 9,
   "look": "soft",
   "appearance": "light",
   "page": "#FAF8F3",
@@ -28,7 +28,13 @@
       "background-3.jpg"
     ],
     "veil": 0.35,
-    "blur": 6
+    "blur": 6,
+    "dividers": [
+      "dividers/divider-1.jpg"
+    ],
+    "closings": [
+      "closings/closing-1.jpg"
+    ]
   },
   "design": {
     "masters": {

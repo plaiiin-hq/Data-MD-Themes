@@ -2,7 +2,7 @@
   "format": 1,
   "id": "dune",
   "name": "Dune",
-  "version": 9,
+  "version": 10,
   "look": "bold",
   "appearance": "light",
   "page": "#FAF2E7",
@@ -28,7 +28,13 @@
       "background-3.jpg"
     ],
     "veil": 0.6,
-    "blur": 6
+    "blur": 6,
+    "dividers": [
+      "dividers/divider-1.jpg"
+    ],
+    "closings": [
+      "closings/closing-1.jpg"
+    ]
   },
   "design": {
     "masters": {

@@ -2,7 +2,7 @@
   "format": 1,
   "id": "orbit",
   "name": "Orbit",
-  "version": 7,
+  "version": 8,
   "look": "spotlight",
   "appearance": "dark",
   "page": "#07101D",
@@ -28,7 +28,13 @@
       "background-3.jpg"
     ],
     "veil": 0.3,
-    "blur": 6
+    "blur": 6,
+    "dividers": [
+      "dividers/divider-1.jpg"
+    ],
+    "closings": [
+      "closings/closing-1.jpg"
+    ]
   },
   "design": {
     "masters": {

@@ -512,7 +512,10 @@
     "scrim": 0,
     "thumbnail": "thumbnail.jpg",
     "title": "leading",
-    "veil": 0.3
+    "veil": 0.3,
+    "dividers": [
+      "dividers/divider-1.jpg"
+    ]
   },
   "sections": [
     "#9A6B12",
@@ -521,5 +524,5 @@
     "#4F7A5E"
   ],
   "text": "#2E2A18",
-  "version": 3
+  "version": 4
 }

@@ -2,7 +2,7 @@
   "format": 1,
   "id": "riviera",
   "name": "Riviera",
-  "version": 9,
+  "version": 10,
   "look": "editorial",
   "appearance": "light",
   "page": "#F8F2EA",
@@ -29,7 +29,13 @@
       "background-4.jpg"
     ],
     "veil": 0.6,
-    "blur": 6
+    "blur": 6,
+    "dividers": [
+      "dividers/divider-1.jpg"
+    ],
+    "closings": [
+      "closings/closing-1.jpg"
+    ]
   },
   "rules": false,
   "design": {

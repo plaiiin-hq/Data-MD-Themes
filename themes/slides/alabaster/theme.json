@@ -2,7 +2,7 @@
   "format": 1,
   "id": "alabaster",
   "name": "Alabaster",
-  "version": 2,
+  "version": 3,
   "look": "editorial",
   "appearance": "light",
   "page": "#F1F1F3",
@@ -21,7 +21,10 @@
     "thumbnail": "thumbnail.jpg",
     "title": "leading",
     "ink": "#202228",
-    "scrim": 0.0
+    "scrim": 0.0,
+    "dividers": [
+      "dividers/divider-1.jpg"
+    ]
   },
   "design": {
     "masters": {

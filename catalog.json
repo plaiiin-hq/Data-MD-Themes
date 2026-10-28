@@ -5,63 +5,63 @@
   "themes": [
     {
       "id": "prism",
-      "version": 7
-    },
-    {
-      "id": "daybreak",
-      "version": 7
-    },
-    {
-      "id": "dune",
-      "version": 9
-    },
-    {
-      "id": "botanic",
       "version": 8
     },
     {
-      "id": "sakura",
-      "version": 7
+      "id": "daybreak",
+      "version": 8
     },
     {
-      "id": "skyline",
-      "version": 7
+      "id": "dune",
+      "version": 10
     },
     {
-      "id": "riviera",
+      "id": "botanic",
       "version": 9
     },
     {
+      "id": "sakura",
+      "version": 8
+    },
+    {
+      "id": "skyline",
+      "version": 8
+    },
+    {
+      "id": "riviera",
+      "version": 10
+    },
+    {
       "id": "tower",
-      "version": 7
+      "version": 8
     },
     {
       "id": "pavilion",
-      "version": 7
+      "version": 8
     },
     {
       "id": "orbit",
-      "version": 7
+      "version": 8
     },
     {
       "id": "aurora",
-      "version": 7
+      "version": 8
     },
     {
       "id": "graphite",
-      "version": 7
+      "version": 8
     },
     {
       "id": "porcelain",
-      "version": 2
+      "version": 3
     },
     {
       "id": "alabaster",
-      "version": 2
+      "version": 3
     },
     {
       "id": "golden-meadow",
-      "version": 3
+      "version": 4
     }
   ],
   "reading": [

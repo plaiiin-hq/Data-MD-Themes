@@ -2,7 +2,7 @@
   "format": 1,
   "id": "porcelain",
   "name": "Porcelain",
-  "version": 2,
+  "version": 3,
   "look": "soft",
   "appearance": "light",
   "page": "#F3F3F5",
@@ -21,7 +21,10 @@
     "thumbnail": "thumbnail.jpg",
     "title": "leading",
     "ink": "#1B1D22",
-    "scrim": 0.0
+    "scrim": 0.0,
+    "dividers": [
+      "dividers/divider-1.jpg"
+    ]
   },
   "design": {
     "masters": {
