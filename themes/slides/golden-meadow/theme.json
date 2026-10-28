@@ -483,39 +483,55 @@
     ],
     "image": "photo.jpg",
     "ink": "#3B2F12",
-    "regions": {
-      "background-1.jpg": {
-        "height": 0.8,
-        "width": 0.56,
-        "x": 0.04,
-        "y": 0.1
-      },
-      "background-2.jpg": {
-        "height": 0.8,
-        "width": 0.58,
-        "x": 0.04,
-        "y": 0.1
-      },
-      "background-3.jpg": {
-        "height": 0.8,
-        "width": 0.58,
-        "x": 0.38,
-        "y": 0.1
-      },
-      "background-4.jpg": {
-        "height": 0.8,
-        "width": 0.6,
-        "x": 0.04,
-        "y": 0.1
-      }
-    },
     "scrim": 0,
     "thumbnail": "thumbnail.jpg",
     "title": "leading",
     "veil": 0.3,
     "dividers": [
       "dividers/divider-1.jpg"
-    ]
+    ],
+    "zones": {
+      "background-1.jpg": {
+        "columns": [
+          {
+            "height": 0.8,
+            "width": 0.56,
+            "x": 0.04,
+            "y": 0.1
+          }
+        ]
+      },
+      "background-2.jpg": {
+        "columns": [
+          {
+            "height": 0.8,
+            "width": 0.58,
+            "x": 0.04,
+            "y": 0.1
+          }
+        ]
+      },
+      "background-3.jpg": {
+        "columns": [
+          {
+            "height": 0.8,
+            "width": 0.58,
+            "x": 0.38,
+            "y": 0.1
+          }
+        ]
+      },
+      "background-4.jpg": {
+        "columns": [
+          {
+            "height": 0.8,
+            "width": 0.6,
+            "x": 0.04,
+            "y": 0.1
+          }
+        ]
+      }
+    }
   },
   "sections": [
     "#9A6B12",
@@ -524,5 +540,5 @@
     "#4F7A5E"
   ],
   "text": "#2E2A18",
-  "version": 4
+  "version": 5
 }
