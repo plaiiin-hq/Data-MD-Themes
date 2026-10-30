@@ -1,41 +1,6 @@
 {
-  "format": 1,
-  "id": "dune",
-  "name": "Dune",
-  "version": 10,
-  "look": "bold",
-  "appearance": "light",
-  "page": "#FAF2E7",
-  "text": "#3A2416",
   "accent": "#B8501A",
-  "sections": [
-    "#B8501A",
-    "#A0701A",
-    "#8A3B5C",
-    "#2E7A78",
-    "#5B5FA8",
-    "#6F7F26"
-  ],
-  "photo": {
-    "image": "photo.jpg",
-    "thumbnail": "thumbnail.jpg",
-    "title": "bottomLeading",
-    "ink": "#FFFFFF",
-    "scrim": 0.35,
-    "backgrounds": [
-      "background-1.jpg",
-      "background-2.jpg",
-      "background-3.jpg"
-    ],
-    "veil": 0.6,
-    "blur": 6,
-    "dividers": [
-      "dividers/divider-1.jpg"
-    ],
-    "closings": [
-      "closings/closing-1.jpg"
-    ]
-  },
+  "appearance": "light",
   "design": {
     "masters": {
       "content": {
@@ -46,6 +11,81 @@
             "source": "background"
           }
         ],
+        "boxes": {
+          "inlineCode": {
+            "cornerRadii": {
+              "bottomLeading": 4,
+              "bottomTrailing": 4,
+              "topLeading": 4,
+              "topTrailing": 4
+            },
+            "padLeading": 2,
+            "padTrailing": 2,
+            "padVertical": 1
+          },
+          "spec": {
+            "boxes": {
+              "code": {
+                "border": {
+                  "paint": {
+                    "color": "#B8501A",
+                    "opacity": 0.16
+                  },
+                  "width": 2
+                },
+                "radius": 20,
+                "shadow": {
+                  "blur": 28,
+                  "paint": {
+                    "color": "#000000",
+                    "opacity": 0.1
+                  },
+                  "y": 12
+                },
+                "title": {
+                  "fill": {
+                    "color": "#B8501A",
+                    "opacity": 0.13
+                  }
+                }
+              },
+              "table": {
+                "border": {
+                  "paint": {
+                    "color": "#B8501A",
+                    "opacity": 0.16
+                  },
+                  "width": 2
+                },
+                "lines": {
+                  "betweenRows": {
+                    "paint": "hidden"
+                  }
+                },
+                "normal": {
+                  "even": {
+                    "fill": "hidden"
+                  }
+                },
+                "radius": 20,
+                "shadow": {
+                  "blur": 28,
+                  "paint": {
+                    "color": "#000000",
+                    "opacity": 0.1
+                  },
+                  "y": 12
+                },
+                "title": {
+                  "fill": {
+                    "color": "#B8501A",
+                    "opacity": 0.13
+                  }
+                }
+              }
+            }
+          }
+        },
         "elements": [
           {
             "anchor": "topLeading",
@@ -135,56 +175,7 @@
             },
             "width": "100%-margin-margin"
           }
-        ],
-        "boxes": {
-          "table": {
-            "header": {
-              "color": "accent",
-              "opacity": 0.13
-            },
-            "zebra": "hidden",
-            "rowLines": "hidden",
-            "border": {
-              "color": "accent",
-              "opacity": 0.16
-            },
-            "borderWidth": 2,
-            "radius": 20,
-            "shadow": {
-              "blur": 28,
-              "y": 12,
-              "opacity": 0.1
-            }
-          },
-          "code": {
-            "header": {
-              "color": "accent",
-              "opacity": 0.13
-            },
-            "border": {
-              "color": "accent",
-              "opacity": 0.16
-            },
-            "borderWidth": 2,
-            "radius": 20,
-            "shadow": {
-              "blur": 28,
-              "y": 12,
-              "opacity": 0.1
-            }
-          },
-          "inlineCode": {
-            "cornerRadii": {
-              "bottomLeading": 4,
-              "bottomTrailing": 4,
-              "topLeading": 4,
-              "topTrailing": 4
-            },
-            "padLeading": 2,
-            "padTrailing": 2,
-            "padVertical": 1
-          }
-        }
+        ]
       },
       "section": {
         "background": [
@@ -451,5 +442,40 @@
         "design": "default"
       }
     }
-  }
+  },
+  "format": 1,
+  "id": "dune",
+  "look": "bold",
+  "name": "Dune",
+  "page": "#FAF2E7",
+  "photo": {
+    "backgrounds": [
+      "background-1.jpg",
+      "background-2.jpg",
+      "background-3.jpg"
+    ],
+    "blur": 6,
+    "closings": [
+      "closings/closing-1.jpg"
+    ],
+    "dividers": [
+      "dividers/divider-1.jpg"
+    ],
+    "image": "photo.jpg",
+    "ink": "#FFFFFF",
+    "scrim": 0.35,
+    "thumbnail": "thumbnail.jpg",
+    "title": "bottomLeading",
+    "veil": 0.6
+  },
+  "sections": [
+    "#B8501A",
+    "#A0701A",
+    "#8A3B5C",
+    "#2E7A78",
+    "#5B5FA8",
+    "#6F7F26"
+  ],
+  "text": "#3A2416",
+  "version": 11
 }

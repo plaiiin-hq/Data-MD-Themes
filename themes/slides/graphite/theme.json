@@ -1,41 +1,6 @@
 {
-  "format": 1,
-  "id": "graphite",
-  "name": "Graphite",
-  "version": 8,
-  "look": "spotlight",
-  "appearance": "dark",
-  "page": "#0E0F12",
-  "text": "#D4D7DC",
   "accent": "#C9CED6",
-  "sections": [
-    "#AFC0D4",
-    "#7FB2D9",
-    "#9FC9B8",
-    "#C4A6D9",
-    "#D9B68C",
-    "#D99A9A"
-  ],
-  "photo": {
-    "image": "photo.jpg",
-    "thumbnail": "thumbnail.jpg",
-    "title": "topLeading",
-    "ink": "#FFFFFF",
-    "scrim": 0.0,
-    "backgrounds": [
-      "background-1.jpg",
-      "background-2.jpg",
-      "background-3.jpg"
-    ],
-    "veil": 0.3,
-    "blur": 6,
-    "dividers": [
-      "dividers/divider-1.jpg"
-    ],
-    "closings": [
-      "closings/closing-1.jpg"
-    ]
-  },
+  "appearance": "dark",
   "design": {
     "masters": {
       "content": {
@@ -72,6 +37,51 @@
             "radius": 0.55
           }
         ],
+        "boxes": {
+          "inlineCode": {
+            "cornerRadii": {
+              "bottomLeading": 4,
+              "bottomTrailing": 4,
+              "topLeading": 4,
+              "topTrailing": 4
+            },
+            "padLeading": 2,
+            "padTrailing": 2,
+            "padVertical": 1
+          },
+          "spec": {
+            "boxes": {
+              "table": {
+                "border": {
+                  "paint": "hidden",
+                  "width": 0
+                },
+                "lines": {
+                  "betweenRows": {
+                    "paint": {
+                      "color": "#D4D7DC",
+                      "opacity": 0.14
+                    }
+                  },
+                  "underTitle": {
+                    "paint": {
+                      "color": "#D4D7DC",
+                      "opacity": 0.85
+                    }
+                  }
+                },
+                "normal": {
+                  "even": {
+                    "fill": "hidden"
+                  }
+                },
+                "title": {
+                  "fill": "hidden"
+                }
+              }
+            }
+          }
+        },
         "elements": [
           {
             "anchor": "topLeading",
@@ -155,34 +165,7 @@
             },
             "width": "100%-margin-margin"
           }
-        ],
-        "boxes": {
-          "table": {
-            "header": "hidden",
-            "headerLine": {
-              "color": "text",
-              "opacity": 0.85
-            },
-            "zebra": "hidden",
-            "rowLines": {
-              "color": "text",
-              "opacity": 0.14
-            },
-            "border": "hidden",
-            "borderWidth": 0
-          },
-          "inlineCode": {
-            "cornerRadii": {
-              "bottomLeading": 4,
-              "bottomTrailing": 4,
-              "topLeading": 4,
-              "topTrailing": 4
-            },
-            "padLeading": 2,
-            "padTrailing": 2,
-            "padVertical": 1
-          }
-        }
+        ]
       },
       "section": {
         "background": [
@@ -448,5 +431,40 @@
         "design": "default"
       }
     }
-  }
+  },
+  "format": 1,
+  "id": "graphite",
+  "look": "spotlight",
+  "name": "Graphite",
+  "page": "#0E0F12",
+  "photo": {
+    "backgrounds": [
+      "background-1.jpg",
+      "background-2.jpg",
+      "background-3.jpg"
+    ],
+    "blur": 6,
+    "closings": [
+      "closings/closing-1.jpg"
+    ],
+    "dividers": [
+      "dividers/divider-1.jpg"
+    ],
+    "image": "photo.jpg",
+    "ink": "#FFFFFF",
+    "scrim": 0,
+    "thumbnail": "thumbnail.jpg",
+    "title": "topLeading",
+    "veil": 0.3
+  },
+  "sections": [
+    "#AFC0D4",
+    "#7FB2D9",
+    "#9FC9B8",
+    "#C4A6D9",
+    "#D9B68C",
+    "#D99A9A"
+  ],
+  "text": "#D4D7DC",
+  "version": 9
 }

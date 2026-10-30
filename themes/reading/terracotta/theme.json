@@ -1,87 +1,10 @@
 {
   "appearance": "system",
   "base": "terracotta",
-  "boxes": {
-    "callout": {
-      "barSides": [],
-      "bodyInset": 22,
-      "fill": {
-        "dark": "F2C3A614",
-        "light": "4A231612"
-      },
-      "iconInKindColor": true,
-      "title": {
-        "dark": "FFFFFFCC",
-        "light": "000000CC"
-      }
-    },
-    "callouts": {
-      "caution": {
-        "iconColor": {
-          "dark": "FF4245FF",
-          "light": "FF2227FF"
-        }
-      },
-      "note": {
-        "iconColor": {
-          "dark": "0091FFFF",
-          "light": "0082F4FF"
-        }
-      },
-      "tip": {
-        "iconColor": {
-          "dark": "30D158FF",
-          "light": "279543FF"
-        }
-      },
-      "warning": {
-        "iconColor": {
-          "dark": "FF9230FF",
-          "light": "D26200FF"
-        }
-      }
-    },
-    "code": {
-      "borderWidth": 0,
-      "cellGap": 2,
-      "cellRadius": 0,
-      "clearFrame": true,
-      "edgeGap": 0,
-      "ground": {
-        "dark": "F2C3A614",
-        "light": "4A231612"
-      },
-      "radius": 6,
-      "titleLikeTableHeader": true
-    },
-    "quote": {
-      "barSides": [],
-      "fill": {
-        "dark": "F2C3A614",
-        "light": "4A231612"
-      }
-    },
-    "table": {
-      "borderWidth": 0,
-      "cell": {
-        "dark": "F2C3A614",
-        "light": "4A231612"
-      },
-      "cellGap": 2,
-      "cellRadius": 0,
-      "outlineGap": 0,
-      "radius": 6,
-      "stripes": false
-    }
-  },
   "colors": {
     "attribute": {
       "dark": "B78A66FF",
       "light": "A77856FF"
-    },
-    "codeHeaderBackground": {
-      "dark": "F2C3A61F",
-      "light": "4A23161A"
     },
     "keyword": {
       "dark": "FF375FFF",
@@ -94,10 +17,6 @@
     "string": {
       "dark": "FF4245FF",
       "light": "FF2227FF"
-    },
-    "tableHeaderBackground": {
-      "dark": "F2C3A61F",
-      "light": "4A23161A"
     }
   },
   "format": 1,
@@ -115,9 +34,148 @@
   },
   "name": "Terracotta",
   "sectionColors": false,
+  "spec": {
+    "boxes": {
+      "callout": {
+        "border": {
+          "sides": []
+        },
+        "fill": {
+          "dark": "#F2C3A614",
+          "light": "#4A231612"
+        },
+        "normal": {
+          "padding": {
+            "leading": 22
+          }
+        },
+        "title": {
+          "icon": {
+            "paint": "kind"
+          },
+          "text": {
+            "paint": {
+              "dark": "#FFFFFFCC",
+              "light": "#000000CC"
+            }
+          }
+        },
+        "variants": {
+          "caution": {
+            "title": {
+              "icon": {
+                "paint": {
+                  "dark": "#FF4245",
+                  "light": "#FF2227"
+                }
+              }
+            }
+          },
+          "note": {
+            "title": {
+              "icon": {
+                "paint": {
+                  "dark": "#0091FF",
+                  "light": "#0082F4"
+                }
+              }
+            }
+          },
+          "tip": {
+            "title": {
+              "icon": {
+                "paint": {
+                  "dark": "#30D158",
+                  "light": "#279543"
+                }
+              }
+            }
+          },
+          "warning": {
+            "title": {
+              "icon": {
+                "paint": {
+                  "dark": "#FF9230",
+                  "light": "#D26200"
+                }
+              }
+            }
+          }
+        }
+      },
+      "code": {
+        "border": {
+          "width": 0
+        },
+        "cells": {
+          "gap": 2,
+          "radius": 0
+        },
+        "fill": "hidden",
+        "normal": {
+          "fill": {
+            "dark": "#F2C3A614",
+            "light": "#4A231612"
+          }
+        },
+        "padding": 0,
+        "radius": 6,
+        "title": {
+          "fill": {
+            "fallback": {
+              "dark": "#F2C3A61F",
+              "light": "#4A23161A"
+            },
+            "section": 0.12
+          },
+          "text": {
+            "case": "none",
+            "font": {
+              "follows": "tableHeader"
+            }
+          }
+        }
+      },
+      "quote": {
+        "border": {
+          "sides": []
+        },
+        "fill": {
+          "dark": "#F2C3A614",
+          "light": "#4A231612"
+        }
+      },
+      "table": {
+        "border": {
+          "width": 0
+        },
+        "cells": {
+          "gap": 2,
+          "radius": 0
+        },
+        "normal": {
+          "fill": {
+            "dark": "#F2C3A614",
+            "light": "#4A231612"
+          }
+        },
+        "padding": 0,
+        "radius": 6,
+        "title": {
+          "fill": {
+            "fallback": {
+              "dark": "#F2C3A61F",
+              "light": "#4A23161A"
+            },
+            "section": 0.14
+          }
+        }
+      }
+    }
+  },
   "taskColor": {
     "dark": "FFE3D0FF",
     "light": "5C2410FF"
   },
-  "version": 5
+  "version": 6
 }

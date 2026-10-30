@@ -1,60 +1,9 @@
 {
   "appearance": "system",
   "base": "clarity",
-  "boxes": {
-    "callout": {
-      "barSides": []
-    },
-    "callouts": {
-      "tip": {
-        "iconColor": {
-          "dark": "30D158FF",
-          "light": "2AA248FF"
-        },
-        "title": {
-          "dark": "30D158FF",
-          "light": "2AA248FF"
-        }
-      },
-      "warning": {
-        "iconColor": {
-          "dark": "FF9230FF",
-          "light": "E36B00FF"
-        },
-        "title": {
-          "dark": "FF9230FF",
-          "light": "E36B00FF"
-        }
-      }
-    },
-    "code": {
-      "borderWidth": 0,
-      "cellGap": 2,
-      "cellRadius": 0,
-      "clearFrame": true,
-      "edgeGap": 0,
-      "groundSection": 0.035,
-      "radius": 6,
-      "titleLikeTableHeader": true
-    },
-    "quote": {
-      "barSides": []
-    },
-    "table": {
-      "borderWidth": 0,
-      "cellGap": 2,
-      "cellRadius": 0,
-      "cellSection": 0.035,
-      "outlineGap": 0,
-      "radius": 6,
-      "stripes": false
-    }
-  },
   "colors": {},
   "format": 1,
   "id": "clarity",
-  "name": "Clarity",
-  "version": 5,
   "inlineChip": {
     "cornerRadii": {
       "bottomLeading": 4,
@@ -65,5 +14,98 @@
     "padLeading": 2,
     "padTrailing": 2,
     "padVertical": 1
-  }
+  },
+  "name": "Clarity",
+  "spec": {
+    "boxes": {
+      "callout": {
+        "border": {
+          "sides": []
+        },
+        "variants": {
+          "tip": {
+            "title": {
+              "icon": {
+                "paint": {
+                  "dark": "#30D158",
+                  "light": "#2AA248"
+                }
+              },
+              "text": {
+                "paint": {
+                  "dark": "#30D158",
+                  "light": "#2AA248"
+                }
+              }
+            }
+          },
+          "warning": {
+            "title": {
+              "icon": {
+                "paint": {
+                  "dark": "#FF9230",
+                  "light": "#E36B00"
+                }
+              },
+              "text": {
+                "paint": {
+                  "dark": "#FF9230",
+                  "light": "#E36B00"
+                }
+              }
+            }
+          }
+        }
+      },
+      "code": {
+        "border": {
+          "width": 0
+        },
+        "cells": {
+          "gap": 2,
+          "radius": 0
+        },
+        "fill": "hidden",
+        "normal": {
+          "fill": {
+            "opacity": 0.035,
+            "section": 1
+          }
+        },
+        "padding": 0,
+        "radius": 6,
+        "title": {
+          "text": {
+            "case": "none",
+            "font": {
+              "follows": "tableHeader"
+            }
+          }
+        }
+      },
+      "quote": {
+        "border": {
+          "sides": []
+        }
+      },
+      "table": {
+        "border": {
+          "width": 0
+        },
+        "cells": {
+          "gap": 2,
+          "radius": 0
+        },
+        "normal": {
+          "fill": {
+            "opacity": 0.035,
+            "section": 1
+          }
+        },
+        "padding": 0,
+        "radius": 6
+      }
+    }
+  },
+  "version": 6
 }

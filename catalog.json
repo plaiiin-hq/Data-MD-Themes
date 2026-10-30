@@ -5,129 +5,129 @@
   "themes": [
     {
       "id": "prism",
-      "version": 8
-    },
-    {
-      "id": "daybreak",
-      "version": 8
-    },
-    {
-      "id": "dune",
-      "version": 10
-    },
-    {
-      "id": "botanic",
       "version": 9
     },
     {
-      "id": "sakura",
-      "version": 8
+      "id": "daybreak",
+      "version": 9
     },
     {
-      "id": "skyline",
-      "version": 8
+      "id": "dune",
+      "version": 11
     },
     {
-      "id": "riviera",
+      "id": "botanic",
       "version": 10
     },
     {
+      "id": "sakura",
+      "version": 9
+    },
+    {
+      "id": "skyline",
+      "version": 9
+    },
+    {
+      "id": "riviera",
+      "version": 11
+    },
+    {
       "id": "tower",
-      "version": 8
+      "version": 9
     },
     {
       "id": "pavilion",
-      "version": 8
+      "version": 9
     },
     {
       "id": "orbit",
-      "version": 8
+      "version": 9
     },
     {
       "id": "aurora",
-      "version": 8
+      "version": 9
     },
     {
       "id": "graphite",
-      "version": 8
+      "version": 9
     },
     {
       "id": "porcelain",
-      "version": 3
+      "version": 4
     },
     {
       "id": "alabaster",
-      "version": 3
+      "version": 4
     },
     {
       "id": "golden-meadow",
-      "version": 5
+      "version": 6
     }
   ],
   "reading": [
     {
       "id": "standard",
-      "version": 5
+      "version": 6
     },
     {
       "id": "paper",
-      "version": 6
+      "version": 7
     },
     {
       "id": "ink",
-      "version": 5
-    },
-    {
-      "id": "plaiiin",
-      "version": 5
-    },
-    {
-      "id": "slate",
-      "version": 5
-    },
-    {
-      "id": "dusk",
-      "version": 5
-    },
-    {
-      "id": "sepia",
       "version": 6
     },
     {
+      "id": "plaiiin",
+      "version": 6
+    },
+    {
+      "id": "slate",
+      "version": 6
+    },
+    {
+      "id": "dusk",
+      "version": 6
+    },
+    {
+      "id": "sepia",
+      "version": 7
+    },
+    {
       "id": "meadow",
-      "version": 5
+      "version": 6
     },
     {
       "id": "rose",
-      "version": 5
+      "version": 6
     },
     {
       "id": "mono",
-      "version": 5
+      "version": 6
     },
     {
       "id": "clarity",
-      "version": 5
+      "version": 6
     },
     {
       "id": "indigo",
-      "version": 5
+      "version": 6
     },
     {
       "id": "terracotta",
-      "version": 5
+      "version": 6
     },
     {
       "id": "forest",
-      "version": 5
+      "version": 6
     },
     {
       "id": "plum",
-      "version": 5
+      "version": 6
     },
     {
       "id": "teal",
-      "version": 5
+      "version": 6
     }
   ]
 }

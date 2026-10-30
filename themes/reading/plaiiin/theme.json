@@ -1,95 +1,10 @@
 {
   "appearance": "system",
   "base": "plaiiin",
-  "boxes": {
-    "callout": {
-      "barSides": [],
-      "bodyInset": 22,
-      "fill": {
-        "dark": "F3EFCF14",
-        "light": "3B2A1A12"
-      },
-      "iconInKindColor": true,
-      "title": {
-        "dark": "FFFFFFCC",
-        "light": "000000CC"
-      }
-    },
-    "callouts": {
-      "caution": {
-        "iconColor": {
-          "dark": "FF4245FF",
-          "light": "FF373BFF"
-        }
-      },
-      "note": {
-        "iconColor": {
-          "dark": "0091FFFF",
-          "light": "0087FCFF"
-        }
-      },
-      "tip": {
-        "iconColor": {
-          "dark": "30D158FF",
-          "light": "289B45FF"
-        }
-      },
-      "warning": {
-        "iconColor": {
-          "dark": "FF9230FF",
-          "light": "D96600FF"
-        }
-      }
-    },
-    "code": {
-      "borderWidth": 0,
-      "cellGap": 2,
-      "cellRadius": 0,
-      "clearFrame": true,
-      "edgeGap": 0,
-      "ground": {
-        "dark": "F3EFCF14",
-        "light": "3B2A1A12"
-      },
-      "radius": 6,
-      "text": {
-        "dark": "C9DD6AFF",
-        "light": "4A5A0AFF"
-      },
-      "titleLikeTableHeader": true
-    },
-    "quote": {
-      "barSides": [],
-      "fill": {
-        "dark": "F3EFCF14",
-        "light": "3B2A1A12"
-      }
-    },
-    "table": {
-      "borderWidth": 0,
-      "cell": {
-        "dark": "F3EFCF14",
-        "light": "3B2A1A12"
-      },
-      "cellGap": 2,
-      "cellRadius": 0,
-      "headerText": {
-        "dark": "C9DD6AFF",
-        "light": "4A5A0AFF"
-      },
-      "outlineGap": 0,
-      "radius": 6,
-      "stripes": false
-    }
-  },
   "colors": {
     "attribute": {
       "dark": "B78A66FF",
       "light": "AB7E5CFF"
-    },
-    "codeHeaderBackground": {
-      "dark": "F3EFCF1F",
-      "light": "3B2A1A1A"
     },
     "number": {
       "dark": "0091FFFF",
@@ -98,31 +13,9 @@
     "string": {
       "dark": "FF4245FF",
       "light": "FF373BFF"
-    },
-    "tableHeaderBackground": {
-      "dark": "F3EFCF1F",
-      "light": "3B2A1A1A"
     }
   },
   "format": 1,
-  "headingColors": [
-    {
-      "dark": "B9D26EFF",
-      "light": "B9D26EFF"
-    },
-    {
-      "dark": "9DB556FF",
-      "light": "94AA4DFF"
-    },
-    {
-      "dark": "82993FFF",
-      "light": "6F822BFF"
-    },
-    {
-      "dark": "677D29FF",
-      "light": "4A5A0AFF"
-    }
-  ],
   "id": "plaiiin",
   "inlineChip": {
     "cornerRadii": {
@@ -137,9 +30,197 @@
   },
   "name": "plaiiin",
   "sectionColors": false,
+  "spec": {
+    "boxes": {
+      "callout": {
+        "border": {
+          "sides": []
+        },
+        "fill": {
+          "dark": "#F3EFCF14",
+          "light": "#3B2A1A12"
+        },
+        "normal": {
+          "padding": {
+            "leading": 22
+          }
+        },
+        "title": {
+          "icon": {
+            "paint": "kind"
+          },
+          "text": {
+            "paint": {
+              "dark": "#FFFFFFCC",
+              "light": "#000000CC"
+            }
+          }
+        },
+        "variants": {
+          "caution": {
+            "title": {
+              "icon": {
+                "paint": {
+                  "dark": "#FF4245",
+                  "light": "#FF373B"
+                }
+              }
+            }
+          },
+          "note": {
+            "title": {
+              "icon": {
+                "paint": {
+                  "dark": "#0091FF",
+                  "light": "#0087FC"
+                }
+              }
+            }
+          },
+          "tip": {
+            "title": {
+              "icon": {
+                "paint": {
+                  "dark": "#30D158",
+                  "light": "#289B45"
+                }
+              }
+            }
+          },
+          "warning": {
+            "title": {
+              "icon": {
+                "paint": {
+                  "dark": "#FF9230",
+                  "light": "#D96600"
+                }
+              }
+            }
+          }
+        }
+      },
+      "code": {
+        "border": {
+          "width": 0
+        },
+        "cells": {
+          "gap": 2,
+          "radius": 0
+        },
+        "fill": "hidden",
+        "normal": {
+          "fill": {
+            "dark": "#F3EFCF14",
+            "light": "#3B2A1A12"
+          },
+          "text": {
+            "paint": {
+              "dark": "#C9DD6A",
+              "light": "#4A5A0A"
+            }
+          }
+        },
+        "padding": 0,
+        "radius": 6,
+        "title": {
+          "fill": {
+            "fallback": {
+              "dark": "#F3EFCF1F",
+              "light": "#3B2A1A1A"
+            },
+            "section": 0.12
+          },
+          "text": {
+            "case": "none",
+            "font": {
+              "follows": "tableHeader"
+            }
+          }
+        }
+      },
+      "quote": {
+        "border": {
+          "sides": []
+        },
+        "fill": {
+          "dark": "#F3EFCF14",
+          "light": "#3B2A1A12"
+        }
+      },
+      "table": {
+        "border": {
+          "width": 0
+        },
+        "cells": {
+          "gap": 2,
+          "radius": 0
+        },
+        "normal": {
+          "fill": {
+            "dark": "#F3EFCF14",
+            "light": "#3B2A1A12"
+          }
+        },
+        "padding": 0,
+        "radius": 6,
+        "title": {
+          "fill": {
+            "fallback": {
+              "dark": "#F3EFCF1F",
+              "light": "#3B2A1A1A"
+            },
+            "section": 0.14
+          },
+          "text": {
+            "paint": {
+              "dark": "#C9DD6A",
+              "light": "#4A5A0A"
+            }
+          }
+        }
+      }
+    },
+    "text": {
+      "headings": {
+        "h2": {
+          "paint": {
+            "dark": "#9DB556FF",
+            "light": "#94AA4DFF"
+          }
+        },
+        "h3": {
+          "paint": {
+            "dark": "#82993FFF",
+            "light": "#6F822BFF"
+          }
+        },
+        "h4": {
+          "paint": {
+            "dark": "#677D29FF",
+            "light": "#4A5A0AFF"
+          }
+        },
+        "h5": {
+          "paint": {
+            "dark": "#677D29FF",
+            "light": "#4A5A0AFF"
+          }
+        },
+        "h6": {
+          "paint": {
+            "dark": "#677D29FF",
+            "light": "#4A5A0AFF"
+          }
+        }
+      },
+      "title": {
+        "paint": "#B9D26EFF"
+      }
+    }
+  },
   "taskColor": {
     "dark": "C9DD6AFF",
     "light": "4A5A0AFF"
   },
-  "version": 5
+  "version": 6
 }

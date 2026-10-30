@@ -20,20 +20,6 @@
           }
         ],
         "boxes": {
-          "callout": {
-            "shadow": {
-              "blur": 24,
-              "opacity": 0.1,
-              "y": 10
-            }
-          },
-          "code": {
-            "shadow": {
-              "blur": 24,
-              "opacity": 0.1,
-              "y": 10
-            }
-          },
           "image": {
             "cornerRadii": {
               "bottomLeading": 12,
@@ -43,35 +29,6 @@
             },
             "shadowOpacity": 0.16,
             "shadowRadius": 24
-          },
-          "quote": {
-            "shadow": {
-              "blur": 24,
-              "opacity": 0.1,
-              "y": 10
-            }
-          },
-          "table": {
-            "border": "hidden",
-            "borderWidth": 0,
-            "cell": {
-              "color": "accent",
-              "opacity": 0.08
-            },
-            "cellGap": 6,
-            "cellRadius": 8,
-            "cellShadow": {
-              "blur": 8,
-              "opacity": 0.1,
-              "y": 4
-            },
-            "header": {
-              "color": "accent",
-              "opacity": 0.2
-            },
-            "outlineGap": 0,
-            "radius": 28,
-            "zebra": "hidden"
           },
           "inlineCode": {
             "cornerRadii": {
@@ -83,6 +40,78 @@
             "padLeading": 2,
             "padTrailing": 2,
             "padVertical": 1
+          },
+          "spec": {
+            "boxes": {
+              "callout": {
+                "shadow": {
+                  "blur": 24,
+                  "paint": {
+                    "color": "#000000",
+                    "opacity": 0.1
+                  },
+                  "y": 10
+                }
+              },
+              "code": {
+                "shadow": {
+                  "blur": 24,
+                  "paint": {
+                    "color": "#000000",
+                    "opacity": 0.1
+                  },
+                  "y": 10
+                }
+              },
+              "quote": {
+                "shadow": {
+                  "blur": 24,
+                  "paint": {
+                    "color": "#000000",
+                    "opacity": 0.1
+                  },
+                  "y": 10
+                }
+              },
+              "table": {
+                "border": {
+                  "paint": "hidden",
+                  "width": 0
+                },
+                "cells": {
+                  "fill": {
+                    "color": "#6B6A1C",
+                    "opacity": 0.08
+                  },
+                  "gap": 6,
+                  "radius": 8,
+                  "shadow": {
+                    "blur": 8,
+                    "paint": {
+                      "color": "#000000",
+                      "opacity": 0.1
+                    },
+                    "y": 4
+                  }
+                },
+                "normal": {
+                  "even": {
+                    "fill": {
+                      "color": "#6B6A1C",
+                      "opacity": 0.08
+                    }
+                  }
+                },
+                "padding": 0,
+                "radius": 28,
+                "title": {
+                  "fill": {
+                    "color": "#6B6A1C",
+                    "opacity": 0.2
+                  }
+                }
+              }
+            }
           }
         },
         "elements": [
@@ -481,15 +510,15 @@
     "closings": [
       "closing-1.jpg"
     ],
+    "dividers": [
+      "dividers/divider-1.jpg"
+    ],
     "image": "photo.jpg",
     "ink": "#3B2F12",
     "scrim": 0,
     "thumbnail": "thumbnail.jpg",
     "title": "leading",
     "veil": 0.3,
-    "dividers": [
-      "dividers/divider-1.jpg"
-    ],
     "zones": {
       "background-1.jpg": {
         "columns": [
@@ -540,5 +569,5 @@
     "#4F7A5E"
   ],
   "text": "#2E2A18",
-  "version": 5
+  "version": 6
 }

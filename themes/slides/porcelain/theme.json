@@ -1,31 +1,6 @@
 {
-  "format": 1,
-  "id": "porcelain",
-  "name": "Porcelain",
-  "version": 3,
-  "look": "soft",
-  "appearance": "light",
-  "page": "#F3F3F5",
-  "text": "#1B1D22",
   "accent": "#4467C8",
-  "sections": [
-    "#4467C8",
-    "#7A8699",
-    "#C07A4A",
-    "#5E9C8A",
-    "#A06A9C",
-    "#B39A3A"
-  ],
-  "photo": {
-    "image": "photo.jpg",
-    "thumbnail": "thumbnail.jpg",
-    "title": "leading",
-    "ink": "#1B1D22",
-    "scrim": 0.0,
-    "dividers": [
-      "dividers/divider-1.jpg"
-    ]
-  },
+  "appearance": "light",
   "design": {
     "masters": {
       "content": {
@@ -44,6 +19,124 @@
             "kind": "rect"
           }
         ],
+        "boxes": {
+          "image": {
+            "cornerRadii": {
+              "bottomLeading": 16,
+              "bottomTrailing": 16,
+              "topLeading": 16,
+              "topTrailing": 16
+            },
+            "shadowOpacity": 0.18,
+            "shadowRadius": 28
+          },
+          "inlineCode": {
+            "cornerRadii": {
+              "bottomLeading": 4,
+              "bottomTrailing": 4,
+              "topLeading": 4,
+              "topTrailing": 4
+            },
+            "padLeading": 2,
+            "padTrailing": 2,
+            "padVertical": 1
+          },
+          "spec": {
+            "boxes": {
+              "callout": {
+                "border": {
+                  "paint": "hidden",
+                  "width": 0
+                },
+                "normal": {
+                  "fill": "#FFFFFF"
+                },
+                "radius": 16,
+                "shadow": {
+                  "blur": 28,
+                  "paint": {
+                    "color": "#000000",
+                    "opacity": 0.1
+                  },
+                  "y": 12
+                }
+              },
+              "code": {
+                "border": {
+                  "paint": "hidden"
+                },
+                "normal": {
+                  "fill": "#FFFFFF"
+                },
+                "radius": 16,
+                "shadow": {
+                  "blur": 28,
+                  "paint": {
+                    "color": "#000000",
+                    "opacity": 0.1
+                  },
+                  "y": 12
+                }
+              },
+              "quote": {
+                "border": {
+                  "paint": "hidden",
+                  "width": 0
+                },
+                "normal": {
+                  "fill": "#FFFFFF"
+                },
+                "radius": 16,
+                "shadow": {
+                  "blur": 28,
+                  "paint": {
+                    "color": "#000000",
+                    "opacity": 0.1
+                  },
+                  "y": 12
+                }
+              },
+              "table": {
+                "border": {
+                  "paint": "hidden",
+                  "width": 0
+                },
+                "cells": {
+                  "fill": "#FFFFFF",
+                  "gap": 8,
+                  "radius": 12,
+                  "shadow": {
+                    "blur": 10,
+                    "paint": {
+                      "color": "#000000",
+                      "opacity": 0.12
+                    },
+                    "y": 4
+                  }
+                },
+                "fill": "#FFFFFF",
+                "normal": {
+                  "even": {
+                    "fill": "#FFFFFF"
+                  }
+                },
+                "padding": 8,
+                "radius": 28,
+                "shadow": {
+                  "blur": 40,
+                  "paint": {
+                    "color": "#000000",
+                    "opacity": 0.12
+                  },
+                  "y": 16
+                },
+                "title": {
+                  "fill": "#FFFFFF"
+                }
+              }
+            }
+          }
+        },
         "elements": [
           {
             "anchor": "topLeading",
@@ -153,84 +246,7 @@
             },
             "width": "100%-margin-margin"
           }
-        ],
-        "boxes": {
-          "quote": {
-            "fill": "#FFFFFF",
-            "border": "hidden",
-            "borderWidth": 0,
-            "radius": 16,
-            "shadow": {
-              "blur": 28,
-              "y": 12,
-              "opacity": 0.1
-            }
-          },
-          "callout": {
-            "fill": "#FFFFFF",
-            "border": "hidden",
-            "borderWidth": 0,
-            "radius": 16,
-            "shadow": {
-              "blur": 28,
-              "y": 12,
-              "opacity": 0.1
-            }
-          },
-          "code": {
-            "fill": "#FFFFFF",
-            "border": "hidden",
-            "radius": 16,
-            "shadow": {
-              "blur": 28,
-              "y": 12,
-              "opacity": 0.1
-            }
-          },
-          "table": {
-            "header": "#FFFFFF",
-            "zebra": "hidden",
-            "border": "hidden",
-            "borderWidth": 0,
-            "radius": 28,
-            "cellGap": 8,
-            "outlineGap": 8,
-            "cellRadius": 12,
-            "cell": "#FFFFFF",
-            "gridColor": "#FFFFFF",
-            "shadow": {
-              "blur": 40,
-              "y": 16,
-              "opacity": 0.12
-            },
-            "cellShadow": {
-              "blur": 10,
-              "y": 4,
-              "opacity": 0.12
-            }
-          },
-          "image": {
-            "cornerRadii": {
-              "topLeading": 16,
-              "topTrailing": 16,
-              "bottomTrailing": 16,
-              "bottomLeading": 16
-            },
-            "shadowRadius": 28,
-            "shadowOpacity": 0.18
-          },
-          "inlineCode": {
-            "cornerRadii": {
-              "bottomLeading": 4,
-              "bottomTrailing": 4,
-              "topLeading": 4,
-              "topTrailing": 4
-            },
-            "padLeading": 2,
-            "padTrailing": 2,
-            "padVertical": 1
-          }
-        }
+        ]
       },
       "section": {
         "background": [
@@ -500,5 +516,33 @@
         "design": "rounded"
       }
     }
-  }
+  },
+  "format": 1,
+  "id": "porcelain",
+  "look": "soft",
+  "name": "Porcelain",
+  "page": "#F3F3F5",
+  "photo": {
+    "backgrounds": [],
+    "blur": 24,
+    "dividers": [
+      "dividers/divider-1.jpg"
+    ],
+    "image": "photo.jpg",
+    "ink": "#1B1D22",
+    "scrim": 0,
+    "thumbnail": "thumbnail.jpg",
+    "title": "leading",
+    "veil": 0.35
+  },
+  "sections": [
+    "#4467C8",
+    "#7A8699",
+    "#C07A4A",
+    "#5E9C8A",
+    "#A06A9C",
+    "#B39A3A"
+  ],
+  "text": "#1B1D22",
+  "version": 4
 }

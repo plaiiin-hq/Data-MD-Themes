@@ -1,41 +1,6 @@
 {
-  "format": 1,
-  "id": "prism",
-  "name": "Prism",
-  "version": 8,
-  "look": "bold",
-  "appearance": "dark",
-  "page": "#0B1A4C",
-  "text": "#E4ECFA",
   "accent": "#56CAD8",
-  "sections": [
-    "#56CAD8",
-    "#F2A65A",
-    "#D27DEC",
-    "#6CB6F0",
-    "#FF8A7A",
-    "#7DDB8A"
-  ],
-  "photo": {
-    "image": "photo.jpg",
-    "thumbnail": "thumbnail.jpg",
-    "title": "topLeading",
-    "ink": "#FFFFFF",
-    "scrim": 0.25,
-    "backgrounds": [
-      "background-1.jpg",
-      "background-2.jpg",
-      "background-3.jpg"
-    ],
-    "veil": 0.35,
-    "blur": 6,
-    "dividers": [
-      "dividers/divider-1.jpg"
-    ],
-    "closings": [
-      "closings/closing-1.jpg"
-    ]
-  },
+  "appearance": "dark",
   "design": {
     "masters": {
       "content": {
@@ -46,6 +11,54 @@
             "source": "background"
           }
         ],
+        "boxes": {
+          "inlineCode": {
+            "cornerRadii": {
+              "bottomLeading": 4,
+              "bottomTrailing": 4,
+              "topLeading": 4,
+              "topTrailing": 4
+            },
+            "padLeading": 2,
+            "padTrailing": 2,
+            "padVertical": 1
+          },
+          "spec": {
+            "boxes": {
+              "table": {
+                "border": {
+                  "paint": "hidden",
+                  "width": 0
+                },
+                "cells": {
+                  "fill": "hidden",
+                  "gap": 3,
+                  "radius": 0
+                },
+                "fill": {
+                  "color": "#56CAD8",
+                  "opacity": 0.55
+                },
+                "normal": {
+                  "even": {
+                    "fill": "hidden"
+                  }
+                },
+                "padding": 3,
+                "radius": 8,
+                "title": {
+                  "fill": {
+                    "color": "#56CAD8",
+                    "opacity": 0.55
+                  },
+                  "text": {
+                    "paint": "#FFFFFF"
+                  }
+                }
+              }
+            }
+          }
+        },
         "elements": [
           {
             "anchor": "topLeading",
@@ -135,39 +148,7 @@
             },
             "width": "100%-margin-margin"
           }
-        ],
-        "boxes": {
-          "table": {
-            "header": {
-              "color": "accent",
-              "opacity": 0.55
-            },
-            "zebra": "hidden",
-            "border": "hidden",
-            "borderWidth": 0,
-            "radius": 8,
-            "cellGap": 3,
-            "outlineGap": 3,
-            "cellRadius": 0,
-            "cell": "hidden",
-            "gridColor": {
-              "color": "accent",
-              "opacity": 0.55
-            },
-            "headerText": "#FFFFFF"
-          },
-          "inlineCode": {
-            "cornerRadii": {
-              "bottomLeading": 4,
-              "bottomTrailing": 4,
-              "topLeading": 4,
-              "topTrailing": 4
-            },
-            "padLeading": 2,
-            "padTrailing": 2,
-            "padVertical": 1
-          }
-        }
+        ]
       },
       "section": {
         "background": [
@@ -434,5 +415,40 @@
         "design": "default"
       }
     }
-  }
+  },
+  "format": 1,
+  "id": "prism",
+  "look": "bold",
+  "name": "Prism",
+  "page": "#0B1A4C",
+  "photo": {
+    "backgrounds": [
+      "background-1.jpg",
+      "background-2.jpg",
+      "background-3.jpg"
+    ],
+    "blur": 6,
+    "closings": [
+      "closings/closing-1.jpg"
+    ],
+    "dividers": [
+      "dividers/divider-1.jpg"
+    ],
+    "image": "photo.jpg",
+    "ink": "#FFFFFF",
+    "scrim": 0.25,
+    "thumbnail": "thumbnail.jpg",
+    "title": "topLeading",
+    "veil": 0.35
+  },
+  "sections": [
+    "#56CAD8",
+    "#F2A65A",
+    "#D27DEC",
+    "#6CB6F0",
+    "#FF8A7A",
+    "#7DDB8A"
+  ],
+  "text": "#E4ECFA",
+  "version": 9
 }

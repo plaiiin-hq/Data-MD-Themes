@@ -1,41 +1,6 @@
 {
-  "format": 1,
-  "id": "aurora",
-  "name": "Aurora",
-  "version": 8,
-  "look": "spotlight",
-  "appearance": "dark",
-  "page": "#081324",
-  "text": "#D6E4EA",
   "accent": "#61C8A9",
-  "sections": [
-    "#61C8A9",
-    "#9488E8",
-    "#5FB3E8",
-    "#C07FE0",
-    "#8EDB7D",
-    "#F27DB6"
-  ],
-  "photo": {
-    "image": "photo.jpg",
-    "thumbnail": "thumbnail.jpg",
-    "title": "bottomLeading",
-    "ink": "#FFFFFF",
-    "scrim": 0.3,
-    "backgrounds": [
-      "background-1.jpg",
-      "background-2.jpg",
-      "background-3.jpg"
-    ],
-    "veil": 0.35,
-    "blur": 6,
-    "dividers": [
-      "dividers/divider-1.jpg"
-    ],
-    "closings": [
-      "closings/closing-1.jpg"
-    ]
-  },
+  "appearance": "dark",
   "design": {
     "masters": {
       "content": {
@@ -72,6 +37,71 @@
             "radius": 0.55
           }
         ],
+        "boxes": {
+          "inlineCode": {
+            "cornerRadii": {
+              "bottomLeading": 4,
+              "bottomTrailing": 4,
+              "topLeading": 4,
+              "topTrailing": 4
+            },
+            "padLeading": 2,
+            "padTrailing": 2,
+            "padVertical": 1
+          },
+          "spec": {
+            "boxes": {
+              "table": {
+                "border": {
+                  "paint": {
+                    "color": "#D6E4EA",
+                    "opacity": 0.06
+                  },
+                  "width": 2
+                },
+                "cells": {
+                  "fill": {
+                    "color": "#D6E4EA",
+                    "opacity": 0.07
+                  },
+                  "gap": 4,
+                  "radius": 10,
+                  "shadow": {
+                    "blur": 10,
+                    "inside": true,
+                    "paint": {
+                      "color": "#000000",
+                      "opacity": 0.3
+                    },
+                    "y": 4
+                  }
+                },
+                "normal": {
+                  "even": {
+                    "fill": {
+                      "color": "#D6E4EA",
+                      "opacity": 0.07
+                    }
+                  }
+                },
+                "padding": 8,
+                "radius": 24,
+                "title": {
+                  "fill": {
+                    "color": "#D6E4EA",
+                    "opacity": 0.16
+                  }
+                },
+                "total": {
+                  "fill": {
+                    "color": "#61C8A9",
+                    "opacity": 0.28
+                  }
+                }
+              }
+            }
+          }
+        },
         "elements": [
           {
             "anchor": "topLeading",
@@ -155,52 +185,7 @@
             },
             "width": "100%-margin-margin"
           }
-        ],
-        "boxes": {
-          "table": {
-            "header": {
-              "color": "text",
-              "opacity": 0.16
-            },
-            "zebra": "hidden",
-            "border": {
-              "color": "text",
-              "opacity": 0.06
-            },
-            "borderWidth": 2,
-            "radius": 24,
-            "cellGap": 4,
-            "outlineGap": 8,
-            "cellRadius": 10,
-            "cell": {
-              "color": "text",
-              "opacity": 0.07
-            },
-            "highlight": {
-              "fill": {
-                "color": "accent",
-                "opacity": 0.28
-              }
-            },
-            "cellShadow": {
-              "blur": 10,
-              "y": 4,
-              "opacity": 0.3,
-              "inside": true
-            }
-          },
-          "inlineCode": {
-            "cornerRadii": {
-              "bottomLeading": 4,
-              "bottomTrailing": 4,
-              "topLeading": 4,
-              "topTrailing": 4
-            },
-            "padLeading": 2,
-            "padTrailing": 2,
-            "padVertical": 1
-          }
-        }
+        ]
       },
       "section": {
         "background": [
@@ -466,5 +451,40 @@
         "design": "default"
       }
     }
-  }
+  },
+  "format": 1,
+  "id": "aurora",
+  "look": "spotlight",
+  "name": "Aurora",
+  "page": "#081324",
+  "photo": {
+    "backgrounds": [
+      "background-1.jpg",
+      "background-2.jpg",
+      "background-3.jpg"
+    ],
+    "blur": 6,
+    "closings": [
+      "closings/closing-1.jpg"
+    ],
+    "dividers": [
+      "dividers/divider-1.jpg"
+    ],
+    "image": "photo.jpg",
+    "ink": "#FFFFFF",
+    "scrim": 0.3,
+    "thumbnail": "thumbnail.jpg",
+    "title": "bottomLeading",
+    "veil": 0.35
+  },
+  "sections": [
+    "#61C8A9",
+    "#9488E8",
+    "#5FB3E8",
+    "#C07FE0",
+    "#8EDB7D",
+    "#F27DB6"
+  ],
+  "text": "#D6E4EA",
+  "version": 9
 }

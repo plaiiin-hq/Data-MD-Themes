@@ -1,104 +1,8 @@
 {
   "appearance": "system",
   "base": "standard",
-  "boxes": {
-    "callout": {
-      "barSides": [],
-      "bodyInset": 22,
-      "fill": {
-        "dark": "FFFFFF14",
-        "light": "1C1C1E12"
-      },
-      "iconInKindColor": true,
-      "title": {
-        "dark": "FFFFFFCC",
-        "light": "000000CC"
-      }
-    },
-    "callouts": {
-      "tip": {
-        "iconColor": {
-          "dark": "30D158FF",
-          "light": "299E46FF"
-        }
-      },
-      "warning": {
-        "iconColor": {
-          "dark": "FF9230FF",
-          "light": "DE6800FF"
-        }
-      }
-    },
-    "code": {
-      "borderWidth": 0,
-      "cellGap": 2,
-      "cellRadius": 0,
-      "clearFrame": true,
-      "edgeGap": 0,
-      "ground": {
-        "dark": "FFFFFF14",
-        "light": "1C1C1E12"
-      },
-      "radius": 6,
-      "titleLikeTableHeader": true
-    },
-    "quote": {
-      "barSides": [],
-      "fill": {
-        "dark": "FFFFFF14",
-        "light": "1C1C1E12"
-      }
-    },
-    "table": {
-      "borderWidth": 0,
-      "cell": {
-        "dark": "FFFFFF14",
-        "light": "1C1C1E12"
-      },
-      "cellGap": 2,
-      "cellRadius": 0,
-      "outlineGap": 0,
-      "radius": 6,
-      "stripes": false
-    }
-  },
-  "colors": {
-    "codeHeaderBackground": {
-      "dark": "FFFFFF1F",
-      "light": "1C1C1E1A"
-    },
-    "tableHeaderBackground": {
-      "dark": "FFFFFF1F",
-      "light": "1C1C1E1A"
-    }
-  },
+  "colors": {},
   "format": 1,
-  "headingColors": [
-    {
-      "dark": "EDEDEDFF",
-      "light": "272727FF"
-    },
-    {
-      "dark": "007AFFFF",
-      "light": "007AFFFF"
-    },
-    {
-      "dark": "007AFFFF",
-      "light": "007AFFFF"
-    },
-    {
-      "dark": "007AFFFF",
-      "light": "007AFFFF"
-    },
-    {
-      "dark": "EDEDEDFF",
-      "light": "272727FF"
-    },
-    {
-      "dark": "EDEDEDFF",
-      "light": "272727FF"
-    }
-  ],
   "id": "standard",
   "inlineChip": {
     "cornerRadii": {
@@ -113,9 +17,159 @@
   },
   "name": "Standard",
   "sectionColors": false,
+  "spec": {
+    "boxes": {
+      "callout": {
+        "border": {
+          "sides": []
+        },
+        "fill": {
+          "dark": "#FFFFFF14",
+          "light": "#1C1C1E12"
+        },
+        "normal": {
+          "padding": {
+            "leading": 22
+          }
+        },
+        "title": {
+          "icon": {
+            "paint": "kind"
+          },
+          "text": {
+            "paint": {
+              "dark": "#FFFFFFCC",
+              "light": "#000000CC"
+            }
+          }
+        },
+        "variants": {
+          "tip": {
+            "title": {
+              "icon": {
+                "paint": {
+                  "dark": "#30D158",
+                  "light": "#299E46"
+                }
+              }
+            }
+          },
+          "warning": {
+            "title": {
+              "icon": {
+                "paint": {
+                  "dark": "#FF9230",
+                  "light": "#DE6800"
+                }
+              }
+            }
+          }
+        }
+      },
+      "code": {
+        "border": {
+          "width": 0
+        },
+        "cells": {
+          "gap": 2,
+          "radius": 0
+        },
+        "fill": "hidden",
+        "normal": {
+          "fill": {
+            "dark": "#FFFFFF14",
+            "light": "#1C1C1E12"
+          }
+        },
+        "padding": 0,
+        "radius": 6,
+        "title": {
+          "fill": {
+            "fallback": {
+              "dark": "#FFFFFF1F",
+              "light": "#1C1C1E1A"
+            },
+            "section": 0.12
+          },
+          "text": {
+            "case": "none",
+            "font": {
+              "follows": "tableHeader"
+            }
+          }
+        }
+      },
+      "quote": {
+        "border": {
+          "sides": []
+        },
+        "fill": {
+          "dark": "#FFFFFF14",
+          "light": "#1C1C1E12"
+        }
+      },
+      "table": {
+        "border": {
+          "width": 0
+        },
+        "cells": {
+          "gap": 2,
+          "radius": 0
+        },
+        "normal": {
+          "fill": {
+            "dark": "#FFFFFF14",
+            "light": "#1C1C1E12"
+          }
+        },
+        "padding": 0,
+        "radius": 6,
+        "title": {
+          "fill": {
+            "fallback": {
+              "dark": "#FFFFFF1F",
+              "light": "#1C1C1E1A"
+            },
+            "section": 0.14
+          }
+        }
+      }
+    },
+    "text": {
+      "headings": {
+        "h2": {
+          "paint": "#007AFFFF"
+        },
+        "h3": {
+          "paint": "#007AFFFF"
+        },
+        "h4": {
+          "paint": "#007AFFFF"
+        },
+        "h5": {
+          "paint": {
+            "dark": "#EDEDEDFF",
+            "light": "#272727FF"
+          }
+        },
+        "h6": {
+          "paint": {
+            "dark": "#EDEDEDFF",
+            "light": "#272727FF"
+          }
+        }
+      },
+      "title": {
+        "paint": {
+          "dark": "#EDEDEDFF",
+          "light": "#272727FF"
+        }
+      }
+    }
+  },
   "taskColor": {
     "dark": "007AFFFF",
     "light": "007AFFFF"
   },
-  "version": 5
+  "version": 6
 }

@@ -1,43 +1,6 @@
 {
-  "format": 1,
-  "id": "riviera",
-  "name": "Riviera",
-  "version": 10,
-  "look": "editorial",
-  "appearance": "light",
-  "page": "#F8F2EA",
-  "text": "#2F2820",
   "accent": "#62702E",
-  "sections": [
-    "#62702E",
-    "#A86E24",
-    "#2F6E8A",
-    "#94473A",
-    "#5A5A8F",
-    "#7E6526"
-  ],
-  "photo": {
-    "image": "photo.jpg",
-    "thumbnail": "thumbnail.jpg",
-    "title": "leading",
-    "ink": "#33291E",
-    "scrim": 0.0,
-    "backgrounds": [
-      "background-1.jpg",
-      "background-2.jpg",
-      "background-3.jpg",
-      "background-4.jpg"
-    ],
-    "veil": 0.6,
-    "blur": 6,
-    "dividers": [
-      "dividers/divider-1.jpg"
-    ],
-    "closings": [
-      "closings/closing-1.jpg"
-    ]
-  },
-  "rules": false,
+  "appearance": "light",
   "design": {
     "masters": {
       "content": {
@@ -48,6 +11,57 @@
             "source": "background"
           }
         ],
+        "boxes": {
+          "inlineCode": {
+            "cornerRadii": {
+              "bottomLeading": 4,
+              "bottomTrailing": 4,
+              "topLeading": 4,
+              "topTrailing": 4
+            },
+            "padLeading": 2,
+            "padTrailing": 2,
+            "padVertical": 1
+          },
+          "spec": {
+            "boxes": {
+              "table": {
+                "border": {
+                  "paint": {
+                    "color": "#62702E",
+                    "opacity": 0.16
+                  },
+                  "width": 2
+                },
+                "lines": {
+                  "betweenRows": {
+                    "paint": "hidden"
+                  }
+                },
+                "normal": {
+                  "even": {
+                    "fill": "hidden"
+                  }
+                },
+                "radius": 20,
+                "shadow": {
+                  "blur": 28,
+                  "paint": {
+                    "color": "#000000",
+                    "opacity": 0.1
+                  },
+                  "y": 12
+                },
+                "title": {
+                  "fill": {
+                    "color": "#62702E",
+                    "opacity": 0.13
+                  }
+                }
+              }
+            }
+          }
+        },
         "elements": [
           {
             "align": "leading",
@@ -133,39 +147,7 @@
             },
             "width": "100%-margin-margin"
           }
-        ],
-        "boxes": {
-          "table": {
-            "header": {
-              "color": "accent",
-              "opacity": 0.13
-            },
-            "zebra": "hidden",
-            "rowLines": "hidden",
-            "border": {
-              "color": "accent",
-              "opacity": 0.16
-            },
-            "borderWidth": 2,
-            "radius": 20,
-            "shadow": {
-              "blur": 28,
-              "y": 12,
-              "opacity": 0.1
-            }
-          },
-          "inlineCode": {
-            "cornerRadii": {
-              "bottomLeading": 4,
-              "bottomTrailing": 4,
-              "topLeading": 4,
-              "topTrailing": 4
-            },
-            "padLeading": 2,
-            "padTrailing": 2,
-            "padVertical": 1
-          }
-        }
+        ]
       },
       "section": {
         "background": [
@@ -460,5 +442,42 @@
         "design": "default"
       }
     }
-  }
+  },
+  "format": 1,
+  "id": "riviera",
+  "look": "editorial",
+  "name": "Riviera",
+  "page": "#F8F2EA",
+  "photo": {
+    "backgrounds": [
+      "background-1.jpg",
+      "background-2.jpg",
+      "background-3.jpg",
+      "background-4.jpg"
+    ],
+    "blur": 6,
+    "closings": [
+      "closings/closing-1.jpg"
+    ],
+    "dividers": [
+      "dividers/divider-1.jpg"
+    ],
+    "image": "photo.jpg",
+    "ink": "#33291E",
+    "scrim": 0,
+    "thumbnail": "thumbnail.jpg",
+    "title": "leading",
+    "veil": 0.6
+  },
+  "rules": false,
+  "sections": [
+    "#62702E",
+    "#A86E24",
+    "#2F6E8A",
+    "#94473A",
+    "#5A5A8F",
+    "#7E6526"
+  ],
+  "text": "#2F2820",
+  "version": 11
 }
